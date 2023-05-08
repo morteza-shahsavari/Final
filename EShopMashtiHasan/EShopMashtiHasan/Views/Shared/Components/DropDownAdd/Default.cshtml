@@ -1,0 +1,13 @@
+﻿@model Security.Domain.Models.ProjectAction
+@{
+    Layout = null;
+}
+
+<div class="form-AddNew">
+                <label >اکشن:</label>
+    <select asp-for="ProjectActionID" asp-items=@ViewBag.ProjectAction class="form-control" ></select>
+                <span asp-validation-for="ProjectActionID" class="text-danger"></span>
+            </div>
+
+
+

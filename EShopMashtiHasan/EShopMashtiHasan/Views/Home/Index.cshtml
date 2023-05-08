@@ -1,0 +1,51 @@
+﻿@model Shopping.DomainModel.ViewModel.Categories.CategoryProductListItem
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var cu = (Security.Domain.DTO.User.UserInfo )TempData["cu"];
+}
+<main class="main default">
+    <div class="container">
+        <div class="row">
+            <aside class="sidebar col-12 col-lg-3 order-2 order-lg-1">
+                <div class="sidebar-inner default">
+                    <div class="widget-banner widget card">
+                        <a href="/" target="_top">
+                            <img class="img-fluid" src="assets/img/banner/1455.jpg" alt="">
+                        </a>
+                    </div>
+                    @await Html.PartialAsync("_ServiceIntroduction")
+
+                    @if (Model.Products.Any(x => x.ShowInInstantOffer))
+                    {
+                        @await Component.InvokeAsync("WidgetSuggestion")
+                    }
+                    @await Component.InvokeAsync("WidgetSidebarBanner")
+                </div>
+            </aside>
+            <div class="col-12 col-lg-9 order-1 order-lg-2">
+                @if (Model.Products.Any(x => x.ShowInAmazingOffer))
+                {
+                    @await Component.InvokeAsync("AmazingOffer")
+                }
+
+                @await Component.InvokeAsync("ProductCategories")
+                @if (Model.Products.Any(x => x.IsNew))
+                {
+                    @await Component.InvokeAsync("NewProducts")
+                }
+
+                @if (Model.Products.Any(x => x.UnitPrice < 500000 && x.UnitPrice > 5000000))
+                {
+                    @await Component.InvokeAsync("SuggestedProducts")
+                }
+
+                @await Component.InvokeAsync("LatestProducts")
+            </div>
+        </div>
+        <div class="row"></div>
+    </div>
+
+</main>

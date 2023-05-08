@@ -1,0 +1,26 @@
+﻿@model Basket
+
+<div class="content-section default">
+    <div class="table-responsive">
+        <table class="table table-order">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">شماره سفارش</th>
+                    <th scope="col">تاریخ ثبت سفارش</th>
+                    <th scope="col">مبلغ کل</th>
+                    <th scope="col">جزئیات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Orders.OrderID</td>
+                    <td class="order-code">DKC-@Model.Orders.OrderID</td>
+                    <td>@Model.Orders.OrderDate</td>
+                    <td>@Model.Orders.TotalAmount</td>
+                    <td><a href="/OrdersDetails/@Model.Orders.OrderID"><i class="now-ui-icons arrows-1_minimal-left"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

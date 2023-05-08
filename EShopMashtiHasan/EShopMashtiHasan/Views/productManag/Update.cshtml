@@ -1,0 +1,91 @@
+﻿@model EShopMashtiHasan.ViewModel.ProductUpdateViewModel
+
+
+
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="text-danger" style="padding:10px 10px">
+        <h5>
+            @TempData["ErrorMessage"]
+        </h5>
+    </div>
+}
+
+
+<div class="AddProduct">
+    <form asp-action="Update" enctype="multipart/form-data" method="post" class="frmAddProduct">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="prod-div">
+                <label asp-for="ProductID" ></label>
+            <input asp-for="ProductID" class="form-control input-control" placeholder="* شناسه محصول" readonly="@(true)" />
+                <span asp-validation-for="ProductID" class="text-danger"></span>
+            </div>
+        <div class="prod-div">
+                <label asp-for="ProductName" ></label>
+            <input asp-for="ProductName" class="form-control input-control" placeholder="* نام محصول" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+        <div class="prod-div">
+                <label asp-for="UnitPrice" ></label>
+            <input asp-for="UnitPrice" class="form-control input-control" placeholder="* قیمت" />
+                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+            </div>
+        <div class="prod-div">
+                <label asp-for="SmallDescription" ></label>
+            <input asp-for="SmallDescription" class="form-control input-control" placeholder="* توضیحات کوتاه" />
+                <span asp-validation-for="SmallDescription" class="text-danger"></span>
+            </div>
+
+        <div class="prod-div">
+                <label asp-for="SupplierID" ></label>
+                <select asp-for="SupplierID" asp-items=@ViewBag.drpSupplier ></select>
+                <span asp-validation-for="SupplierID" class="text-danger"></span>
+            </div>
+        <div class="prod-div">
+                <label asp-for="CategoryID" ></label>
+                <select asp-for="CategoryID" asp-items=@ViewBag.drpCategory ></select>
+                <span asp-validation-for="CategoryID" class="text-danger"></span>
+        </div>
+
+
+        <div class="prod-div">
+            <label>عکس 1</label>
+            <img width="70" src="@Url.Content(ViewBag.pic1)" alt="Alternate Text" />
+            <input type="file" asp-for="Picture1" value="" />
+            <span asp-validation-for="Picture1" class="text-danger"></span>
+        </div>
+        <div class="prod-div">
+            <label>عکس 2</label>
+            <img width="90" src="@Url.Content(ViewBag.pic2)" style="margin-right:5px" alt="Alternate Text" />
+            <input type="file" asp-for="Picture2" value="" />
+            <span asp-validation-for="Picture2" class="text-danger"></span>
+        </div>
+
+
+
+
+            <div class="prod-div">
+                <label asp-for="Description" ></label>
+                <textarea asp-for="Description" placeholder="* توضیحات کامل"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+
+            
+
+        <div class="prod-div button-form">
+            <input type="submit" value="Create" class="btn btn-success" style="margin:0px 20px"/>
+            <a asp-action="Index" class="btn btn-danger">بازگشت</a>
+        </div>
+        </form>
+    </div>
+
+
+

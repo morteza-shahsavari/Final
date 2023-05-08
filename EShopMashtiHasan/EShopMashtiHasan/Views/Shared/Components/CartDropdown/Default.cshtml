@@ -1,0 +1,68 @@
+﻿@model CartDropdownList
+@{
+    
+    var count = Model.CartDropdownListItems.Sum(x => x.OrderCount);
+}
+
+ <div class="cart dropdown cartdropdown" id="cartdropdown">
+    <a href="#" class="btn dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1" >
+                            <img src="/assets/img/shopping-cart.png" alt="">
+                            سبد خرید
+
+
+<span class="count-cart" id="">@count</span>
+   </a>
+    <ul class="dropdown-menu " id="cartdropdownul" aria-labelledby="navbarDropdownMenuLink1">
+        <div class="basket-header">
+            <div class="basket-total">
+                <span>مبلغ کل خرید:</span>
+                <span id="TotalAmount"> @Model.TotalAmount</span>
+                <span> تومان</span>
+            </div>
+            <a href="/Orders/OrdersDetails" class="basket-link">
+                <span>مشاهده سبد خرید</span>
+                <div class="basket-arrow"></div>
+            </a>
+        </div>
+        <ul class="basket-list">
+            <li>
+                @foreach (var item in Model.CartDropdownListItems)
+                {
+                    <a href="@Url.Action("ProductDetails","Product",new{id = item.ProductId})" class="basket-item">
+                        <button class="basket-item-remove" data-productId="@item.ProductId"></button>
+                        <div class="basket-item-content">
+                            
+                            <div class="basket-item-image">
+                                <img alt="" src="@Url.Content(item.Image)">
+
+                              
+                            </div>
+
+
+                            <div class="btnQuntity">
+                                <button class="btnplus plus" data-productid=@item.ProductId @*id="btnplusBasket"*@>
+                                    <i class="fa fa-plus btnQuntityi " aria-hidden="true"></i>
+                                </button>
+                                <span class="btnQuntity">@item.OrderCount</span>
+                                <button class="btnminus minus" data-productid=@item.ProductId @*id="btnminusBasket"*@>
+                                    <i class="fa fa-minus btnQuntityi" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+
+                            <div class="basket-item-details">
+                                <div class="basket-item-title">
+                                    @item.ProductName <span  class="badge">@item.OrderCount</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </li>
+        </ul>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a href="/Account/Login" class="basket-submit">ورود و ثبت سفارش</a>
+        }
+    </ul>
+</div>

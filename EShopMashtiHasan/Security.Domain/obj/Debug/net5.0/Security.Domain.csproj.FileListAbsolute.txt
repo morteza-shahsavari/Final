@@ -1,0 +1,30 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\refint\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\ref\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\refint\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Domain\obj\Debug\net5.0\ref\Security.Domain.dll

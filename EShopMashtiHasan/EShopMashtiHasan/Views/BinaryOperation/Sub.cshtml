@@ -1,0 +1,23 @@
+﻿@model EShopMashtiHasan.Models.Numbers;
+@using (@Html.BeginForm("MakeSub","BinaryOperation",FormMethod.Post))
+{
+<table>
+    <tr>
+        <td>FirstNumber</td>
+        <td>
+           <input type="text" asp-for="FirstNumber" class="form-control"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Second Number</td>
+        <td>
+            @Html.TextBoxFor(x => x.SecondNumber, new { @class = "form-control" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" name="name" value="Sub" class="btn btn-primary"/>
+        </td>
+    </tr>
+</table>   
+}

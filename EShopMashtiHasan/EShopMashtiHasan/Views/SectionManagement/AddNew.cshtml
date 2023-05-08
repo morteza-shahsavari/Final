@@ -1,0 +1,39 @@
+﻿@model Shopping.DomainModel.DTO.Advertisement.SectionAddEditModel
+@{
+    ViewData["Title"] = "AddNewSection";
+}
+
+<h1>AddNewSection</h1>
+
+<h4>SectionViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddEdit" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="EnglishName" class="control-label"></label>
+                <input asp-for="EnglishName" class="form-control" />
+                <span asp-validation-for="EnglishName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ControllerName" class="control-label"></label>
+                <input asp-for="ControllerName" class="form-control" />
+                <span asp-validation-for="ControllerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FarsiName" class="control-label"></label>
+                <input asp-for="FarsiName" class="form-control" />
+                <span asp-validation-for="FarsiName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

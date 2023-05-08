@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordListItem>
+
+@{
+    Layout = null;
+}
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                شناسه
+            </th>
+            <th>
+               کلمه کلیدی
+            </th>
+            <th>
+               محصول
+            </th>
+           
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+          @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.ProductKeyWordID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductKeyWordID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KeyWordText)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                   
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.ProductKeyWordID"
+                      data-action='@Url.Action("Delete","ProductKeyWord")'
+                      data-action-BindGrid='@Url.Action("ProKeyList","ProductKeyWord")'
+                      data-action-RefreshGrid='@Url.Action("ProKeySearchBox","ProductKeyWord")'
+                      data-Delete="DeleteKey"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+            }
+            <tr class="text-center">
+                <td colspan="5">
+                    @{
+                        Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel sm = (Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProductKeyWord", new Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        KeywordID = sm.KeywordID,ProductID=sm.ProductID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProductKeyWord", new Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        KeywordID = sm.KeywordID,ProductID=sm.ProductID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

@@ -1,0 +1,353 @@
+.SerachBox {
+    box-shadow: 0px 0px 3px 0px rgb(173 41 41 / 36%);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ListBox {
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px rgb(173 41 41 / 36%);
+    padding-bottom: 30px;
+}
+
+.DvSearch {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ListBox {
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.FormSearch {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.IndexPagePanel {
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.SearchBox-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 24%;
+}
+
+    .SearchBox-div > label {
+        margin-left: 8px;
+    }
+
+    .SearchBox-div > input {
+        border-radius: 10px;
+    }
+
+    .SearchBox-div > select {
+        border-radius: 10px;
+    }
+
+
+.FormAddNew {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.form-AddNew {
+    margin-bottom: 20px;
+    flex-basis: 45%;
+    width: 100%;
+}
+
+    .form-AddNew > label {
+        width: 25%;
+    }
+
+    .form-AddNew > input {
+        width: 70%;
+        border-radius: 10px;
+        height: 39px;
+        border: 1px solid silver;
+        outline-color: orange;
+    }
+
+    .form-AddNew > select {
+        width: 70%;
+        border-radius: 10px;
+        height: 39px;
+        border: 1px solid silver;
+        outline-color: orange;
+    }
+
+    .form-AddNew > input:active,
+    .form-AddNew > input:hover,
+    .form-AddNew > input:focus,
+    .form-AddNew > input:focus-visible,
+    .form-AddNew > input:checked {
+        border: 1px solid #3592ad;
+    }
+
+
+.btn-modal {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .btn-modal > span {
+        margin-left: 40px;
+    }
+
+/* --------------------------------*/
+
+
+
+
+.AddProduct {
+    padding: 50px;
+}
+
+.frmAddProduct {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: space-around;
+    box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 20%);
+    background-color: white;
+    padding: 36px 0px;
+    border-radius: 10px;
+}
+
+
+
+.prod-div {
+    margin-bottom: 33px;
+    display: flex;
+    flex-basis: 44%;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+    .prod-div > label {
+        display: inline-block;
+        margin-bottom: 5px;
+        width: 30%;
+    }
+
+    .prod-div > input {
+        width: 65%;
+        outline-color: orange;
+    }
+
+    .prod-div > select {
+        width: 65%;
+        outline-color: orange;
+    }
+
+
+
+    .prod-div > textarea {
+        width: 335px !important;
+        outline-color: orange;
+    }
+
+
+.prod-label {
+    padding-right: 34px;
+}
+
+.Search-Root {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+    .Search-Root > label {
+        width: 48%;
+        padding-left: 3px;
+        border-radius: 10px;
+    }
+
+    .Search-Root > input {
+        width: 73%;
+        border-radius: 10px;
+    }
+
+.Search-RootSelect {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+    .Search-RootSelect > label {
+        width: 13%;
+    }
+
+
+.select2-container {
+    width: 72% !important;
+}
+.Search-RootSelect > input {
+    border-radius: 10px;
+    width: 82%;
+    
+}
+.FeatureValues {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*-------------------------------*/
+.titleprofile {
+    margin: 0px auto;
+    padding: 26px 15px;
+}
+.profile {
+    display: block;
+    width: 89%;
+    background: white;
+    margin: 0px auto;
+    box-shadow: 1px 0px 4px 1px rgb(219 123 123 / 45%);
+    border-radius: 10px;
+}
+
+.profile-form {
+    display: flex;
+    padding: 100px 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+}
+.profile-div {
+    flex-basis: 46%;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+    .profile-div > label {
+        width: 18%;
+    }
+
+    .profile-div > input {
+        width: 79%;
+        height: 36px;
+        border-radius: 10px;
+        border: 0.2px solid silver;
+        outline-color: orange;
+    }
+
+        .profile-div > input:hover,
+        .profile-div > input:active,
+        .profile-div > input:focus,
+        .profile-div > input:focus-visible {
+            width: 79%;
+            height: 36px;
+            border-radius: 10px;
+            border: 0.2px solid silver;
+            outline-color: orange;
+        }
+
+
+.profile-div > span {
+    margin-top: 40px;
+}
+  /*-------------------------------*/
+.FormAddCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.form-AddCategory {
+    flex-basis: 48%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .form-AddCategory > label {
+        width: 19%;
+    }
+    .form-AddCategory > select,
+    .form-AddCategory > select:hover,
+    .form-AddCategory > select:focus, .form-AddCategory > select:focus-visible {
+        width: 79%;
+        height: 42px;
+        outline-color: orange;
+        border-radius: 10px;
+        border: 0.5px solid silver;
+    }
+
+    .form-AddCategory > input,
+    .form-AddCategory > input:hover,
+    .form-AddCategory > input:focus,
+    .form-AddCategory > input:focus-visible {
+        width: 78%;
+        height: 42px;
+        outline-color: orange;
+        border-radius: 10px;
+        border: 0.5px solid silver;
+    }
+
+.btn-AddCategory {
+    margin: 0px auto;
+    display: grid;
+    width: 172px; 
+    margin-bottom: 18px;
+    margin-top: 16px; 
+}
+
+.form-AddCategoryDescription {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .form-AddCategoryDescription > label {
+        width: 9%;
+    }
+
+    .form-AddCategoryDescription > input,
+    .form-AddCategoryDescription > input:hover,
+    .form-AddCategoryDescription > input:focus,
+    .form-AddCategoryDescription > input:focus-visible {
+        width: 90%;
+        height: 42px;
+        outline-color: orange;
+        border-radius: 10px;
+        border: 0.5px solid silver;
+    }
+
+.pagination {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+

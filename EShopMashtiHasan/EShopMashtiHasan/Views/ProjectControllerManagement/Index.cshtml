@@ -1,0 +1,16 @@
+﻿@model Security.Domain.DTO.ProjectController.ProjectControllerSearchModel
+
+
+@{
+    ViewData["Title"] = "کنترلرها";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("ControllerSearchBox",this.Model)
+</div>
+
+    <div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("ControllerList",this.Model)
+</div>
+</div>

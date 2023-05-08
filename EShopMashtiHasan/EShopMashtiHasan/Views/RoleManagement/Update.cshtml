@@ -1,0 +1,36 @@
+﻿@model Security.Domain.Models.Role
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div>
+    <form asp-action="Update" id="frmEditnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-AddNew">
+                <label >شناسه نقش:</label>
+                <input asp-for="RoleID"  readonly="@(true)" />
+                <span asp-validation-for="RoleID" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+                <label >نام نقش:</label>
+                <input asp-for="RoleName"  />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+           
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit"
+                  data-action='@Url.Action("Update","RoleManagement")'
+                  data-form="frmEditnew" data-method="post"
+                  data-action-BindGrid='@Url.Action("RoleList","RoleManagement")'
+                  data-action-RefreshGrid='@Url.Action("RoleSearchBox","RoleManagement")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+        </div>
+    </div>
+
+
+

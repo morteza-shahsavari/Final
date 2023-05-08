@@ -1,0 +1,29 @@
+﻿@model Shopping.DomainModel.DTO.Supplier.SupplierSearchModel
+
+
+@{
+    ViewData["Title"] = "تولیدکنندگان";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+
+
+<div class="IndexPagePanel">
+
+
+
+<div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("SupplierSearchBox",this.Model)
+</div>
+
+<div id="dvGrid" class="ListBox">
+@await Component.InvokeAsync("SupplierList",this.Model)
+</div>
+
+
+</div>
+
+
+
+
+

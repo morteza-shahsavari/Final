@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Security.Domain.DTO.RoleAction.RoleActionListItem>
+
+@{
+    ViewData["Title"] = "Default";
+}
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                شناسه
+            </th>
+            <th>
+               نقش
+            </th>
+            <th>
+               اکشن
+            </th>
+            <th>
+               کنترلر
+            </th>
+            <th>
+               دسترسی 
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+                  @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.RoleActionID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RoleActionID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RoleName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectActionName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectControllerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HasPermission)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.RoleActionID"
+                      data-action='@Url.Action("Delete","RoleActionManagement")'
+                      data-action-BindGrid='@Url.Action("RoleActionList","RoleActionManagement")'
+                      data-action-RefreshGrid='@Url.Action("RoleActionSearchBox","RoleActionManagement")'
+                      data-Delete="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+            }
+
+            <tr class="text-center">
+                <td colspan="6">
+                    @{
+                        Security.Domain.DTO.RoleAction.RoleActionSearchModel sm = (Security.Domain.DTO.RoleAction.RoleActionSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "RoleActionManagement", new Security.Domain.DTO.RoleAction.RoleActionSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        RoleActionID = sm.RoleActionID,ProjectActionID=sm.ProjectActionID,ProjectContorollerID=sm.ProjectContorollerID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "RoleActionManagement", new Security.Domain.DTO.RoleAction.RoleActionSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        RoleActionID = sm.RoleActionID,ProjectActionID=sm.ProjectActionID,ProjectContorollerID=sm.ProjectContorollerID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+
+        }
+    </tbody>
+</table>

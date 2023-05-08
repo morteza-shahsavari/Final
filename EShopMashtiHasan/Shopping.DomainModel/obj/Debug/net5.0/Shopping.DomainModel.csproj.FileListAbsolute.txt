@@ -1,0 +1,36 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.runtimeconfig.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.runtimeconfig.dev.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\refint\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.genruntimeconfig.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\ref\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.runtimeconfig.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.runtimeconfig.dev.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\refint\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\Shopping.DomainModel.genruntimeconfig.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DomainModel\obj\Debug\net5.0\ref\Shopping.DomainModel.dll

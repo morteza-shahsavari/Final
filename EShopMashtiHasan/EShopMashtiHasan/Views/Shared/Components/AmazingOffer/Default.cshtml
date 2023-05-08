@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.Product.ProductListItem>
+@{
+    var counter = 0;
+    var hasActive = true;
+}
+@if (Model != null && Model.Any() && Model.Count() > 0)
+{
+    <section id="amazing-slider" class="carousel slide carousel-fade card" data-ride="carousel">
+        <div class="row m-0">
+            <ol class="carousel-indicators pr-0 d-flex flex-column col-lg-3">
+                @foreach (var product in Model)
+                {
+                    <li class="@(hasActive ? "active" : "")" data-target="#amazing-slider" data-slide-to="@counter">
+                        <span>@product.SmallDescription</span>
+                    </li>
+                    counter++;
+                    hasActive = false;
+                }
+                 <li class="view-all">
+                    <a href="#" class="btn btn-primary btn-block hvr-sweep-to-left">
+                    <i class="fa fa-arrow-left"></i> شگفت انگیزها
+                    </a>
+                    </li>
+            </ol>
+            <div class="carousel-inner p-0 col-12 col-lg-9">
+                <img class="amazing-title" src="assets/img/amazing-slider/amazing-title-01.png"
+                 alt="">
+                 @{hasActive = true;}
+                @foreach (var product in Model)
+                {
+                    <div class="@(hasActive ? "carousel-item active" : "carousel-item")">
+                        <div class="row m-0">
+                            <div class="right-col col-5 d-flex align-items-center">
+                                <a class="w-100 text-center" href="#">
+                                    <img src="@Url.Content(product.Picture1)"
+                                 class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="left-col col-7">
+                                <div class="price">
+                                    @*<del><span>4,299,000<span>تومان</span></span></del>*@
+                                    <ins><span>@product.UnitPrice<span>تومان</span></span></ins>
+                                    @*<span class="discount-percent">3 % تخفیف</span>*@
+                                </div>
+                                <h2 class="product-title">
+                                    <a href="@Url.Action("ProductDetails","Product",new{id = product.ProductID})"> @product.ProductName </a>
+                                </h2>
+                                @* @if(product.)
+                                    <ul class="list-group">
+                                    <li class="list-group-item">رنگ: مشکی</li>
+                                    <li class="list-group-item">160 گیگابایت</li>
+                                    </ul>*@
+                                <hr>
+                                @if (product.ExpireDateSpecialOffer > DateTime.Now)
+                                {
+                                    <div class="countdown-timer" countdown data-date="@product.ExpireDateSpecialOffer">
+                                        <span data-days>0</span>:
+                                        <span data-hours>0</span>:
+                                        <span data-minutes>0</span>:
+                                        <span data-seconds>0</span>
+                                    </div>
+                                    <div class="timer-title">زمان باقی مانده تا پایان سفارش</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    hasActive = false;
+                }
+            </div>
+        </div>
+    </section>
+}

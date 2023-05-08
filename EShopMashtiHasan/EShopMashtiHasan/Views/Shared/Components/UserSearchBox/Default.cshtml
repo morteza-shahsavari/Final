@@ -1,0 +1,42 @@
+﻿@model Security.Domain.DTO.User.UserSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+<div class="SearchBoxUser">
+    <form asp-action="Default" id="frmSearch" class="FormSearchUser">
+        <div class="SearchBoxUser">
+                <label >نام کاربری:</label>
+                <input asp-for="UserName" class="form-control" data-action='@Url.Action("UserList", "UserManagement")' data-search="search" />
+            </div>
+        <div class="SearchBoxUser">
+                <label>موبایل:</label>
+                <input asp-for="Mobile" class="form-control" data-action='@Url.Action("UserList", "UserManagement")' data-search="search" />
+            </div>
+        <div class="SearchBoxUser">
+                <label >نام:</label>
+                <input asp-for="FirstName" class="form-control" data-action='@Url.Action("UserList", "UserManagement")' data-search="search" />
+            </div>
+        <div class="SearchBoxUser">
+                <label >نام خانوادگی:</label>
+                <input asp-for="LastName" class="form-control" data-action='@Url.Action("UserList", "UserManagement")' data-search="search" />
+            </div>
+        <div class="SearchBoxUser">
+                <label >نقش:</label>
+                <select asp-for="RoleID" asp-items=@ViewBag.drpRole class="form-control" data-action='@Url.Action("UserList", "UserManagement")' data-search="search"></select>
+            </div>
+        <div class="SearchBoxUser">
+            <div>
+            <a href="#" class="btn btn-success "
+               data-action='@Url.Action("AddNew","UserManagement")'
+ data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </div>
+
+        </form>
+   
+    </div>
+
+
+
+

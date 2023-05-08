@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Shopping.DomainModel.ViewModel.FeatureViewModel>
+<div class="col-lg-4 col-md-6 col-sm-12 center-breakpoint">
+    <div class="product-guaranteed default">
+        بیش از ۱۸۰ نفر از خریداران این محصول را پیشنهاد داده‌اند
+    </div>
+    @if (Model != null && Model.Any() && Model.Count() > 0)
+    {
+        <div class="product-params default">
+            <ul data-title="ویژگی‌های محصول">
+                @foreach (var item in Model.Take(5))
+                {
+                    <li>
+                        <span>@item.Name: </span>
+                        <span> @item.Value</span>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+</div>

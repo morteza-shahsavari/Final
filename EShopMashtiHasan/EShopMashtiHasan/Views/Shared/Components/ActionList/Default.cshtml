@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Security.Domain.DTO.ProjectAction.ProjectActionListItem>
+
+@{
+    ViewData["Title"] = "Default";
+}
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه
+            </th>
+            <th>
+                اکشن
+            </th>
+            <th>
+              توضیحات
+            </th>
+            <th>
+                کنترلر
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+         @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.ProjectActionID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectActionID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectActionName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PersianTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectControllerName)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.ProjectActionID"
+                      data-action='@Url.Action("Delete","ProjectActionManagement")'
+                      data-action-BindGrid='@Url.Action("ActionList","ProjectActionManagement")'
+                      data-action-RefreshGrid='@Url.Action("ActionSearchBox","ProjectActionManagement")'
+                      data-Delete="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+
+                        <a href="#" class="btn btn-primary " data-id="@item.ProjectActionID"
+                   data-action='@Url.Action("Update","ProjectActionManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel"> <i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+            }
+            <tr class="text-center">
+                <td colspan="5">
+                    @{
+                        Security.Domain.DTO.ProjectAction.ProjectActionSearchModel sm = (Security.Domain.DTO.ProjectAction.ProjectActionSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProjectActionManagement", new Security.Domain.DTO.ProjectAction.ProjectActionSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        ProjectActionName = sm.ProjectActionName,ProjectControllerID=sm.ProjectControllerID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProjectActionManagement", new Security.Domain.DTO.ProjectAction.ProjectActionSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        ProjectActionName = sm.ProjectActionName,ProjectControllerID=sm.ProjectControllerID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

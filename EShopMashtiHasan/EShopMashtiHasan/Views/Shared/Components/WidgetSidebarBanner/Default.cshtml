@@ -1,0 +1,10 @@
+﻿@model List<Advertisment_VM>
+
+@foreach (var item in Model)
+{
+    <div class="widget-banner widget card">
+        <a href="@item.Link" target="_blank">
+            <img class="img-fluid" src="@Url.Content(item.Picture)" alt="@item.Alt">
+        </a>
+    </div>
+}

@@ -1,0 +1,38 @@
+﻿@model CategorySearchModel
+<div class="box">
+    <div class="box-header">دسته بندی نتایج</div>
+    <div class="box-content category-result">
+        <ul>
+            <li>
+                <a href="@Url.Action("Index","Category",new{CategoryName = Model.ParentName})">@Model.ParentName</a>
+                <ul>
+                    @if (Model.HaveChildrens)
+                    {
+                        @foreach (var subCat in Model.SubCategories)
+                        {
+                            <li><a href="@Url.Action("Index","Category",new{CategoryName = subCat.CategoryName})">@subCat.CategoryName</a></li>
+                            @if (subCat.HaveChildrens)
+                            {
+                                @foreach (var subsubcat in subCat.SubCategories)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Index","Category",new{CategoryName = subsubcat.CategoryName})">@subsubcat.CategoryName</a>
+                                        @if (subsubcat.HaveChildrens)
+                                        {
+                                            @foreach (var subSubSubcat in subsubcat.SubCategories)
+                                            {
+                                                <ul>
+                                                    <li><a href="@Url.Action("Index","Category",new{CategoryName = subsubcat.CategoryName})">@subSubSubcat.CategoryName</a></li>
+                                                </ul>
+                                            }
+                                        }
+                                    </li>
+                                }
+                            }
+                        }
+                    }
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

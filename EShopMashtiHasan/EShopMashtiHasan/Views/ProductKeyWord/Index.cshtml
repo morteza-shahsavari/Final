@@ -1,0 +1,103 @@
+﻿@model Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+        @await Component.InvokeAsync("ProKeySearchBox",this.Model)
+    </div>
+
+    <div id="dvGrid" class="ListBox">
+        @await Component.InvokeAsync("ProKeyList",this.Model)
+    </div>
+</div>
+
+
+<script>
+
+
+    $("#KeywordID").select2({
+
+        ajax: {
+            url: '@Url.Action("Get", "ProductKeyWord")',
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    type: 'public'
+                }
+                // Query parameters will be ?search=[term]&type=public
+                return query;
+            }
+        }
+
+        ,
+
+        tags: true,
+        multiple: true,
+
+        placeholder: {
+            id: "-1",
+            text: "خصوصیت جدید راوارد نمایید",
+        }
+        ,
+        allowClear: true,
+        tokenSeparators: [',', ' '], dir: "rtl"
+    });
+
+
+
+    $(document).on("click", "#btnAddNewRoot", function () {
+        var actionBind = $(this).attr("data-action-BindGrid");
+        keyword = $("#KeywordID").select2('val')
+        var id = parseInt($("#ProductID").val());
+        var url = '@Url.Action("AddCategoryKeyword","ProductKeyWord")';
+        $.post(url, { keyword: keyword, "id": id }, function (op) {
+            if (op.success.toString() == "true") {
+                ShowSuccessMessage(op.message);
+                BindKey(actionBind);
+            }
+            
+           
+        });
+    });
+
+
+
+    function BindKey(url) {
+        var SendingData = $("#frmAddnewRoot").serialize();
+        $.get(url,SendingData, function (grd) {
+
+            $("#dvGrid").html(grd);
+        });
+    }
+
+
+
+
+
+
+    $(document).on("click", "[data-Delete='DeleteKey']", function () {
+        var actionBind = $(this).attr("data-action-BindGrid");
+        var actionRefresh = $(this).attr("data-action-RefreshGrid");
+        if (confirm("آیا مطمنید")) {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+            var sendingUrl = $(this).attr("data-action");
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    BindKey(actionBind);
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+</script>

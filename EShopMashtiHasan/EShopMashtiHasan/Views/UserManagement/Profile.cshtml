@@ -1,0 +1,87 @@
+﻿@model Security.Domain.DTO.User.UserUpdateModel
+
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+<h4 class="titleprofile">پروفایل</h4>
+
+
+<div class="profile">
+    <form asp-action="Profile" id="frmEditnew" class="profile-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="profile-div" style="display:none">
+                <label asp-for="UserID" ></label>
+                <input asp-for="UserID"  />
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+        <div class="profile-div">
+                <label asp-for="FirstName" >نام:</label>
+                <input asp-for="FirstName"  />
+                <span asp-validation-for="FirstName" ></span>
+            </div>
+        <div class="profile-div">
+                <label asp-for="LastName" >نام خانوادگی:</label>
+                <input asp-for="LastName"  />
+                <span asp-validation-for="LastName" ></span>
+            </div>
+        <div class="profile-div">
+                <label asp-for="Email" >ایمیل:</label>
+                <input asp-for="Email"  />
+                <span asp-validation-for="Email" ></span>
+            </div>
+        <div class="profile-div">
+                <label asp-for="Mobile" >موبایل:</label>
+                <input asp-for="Mobile"  />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+
+        <div class="profile-div" style="flex-basis:100%">
+            <label style="width:7%"> آدرس:</label>
+            <input asp-for="Address" style="width:90%" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="profile-div">
+                <span type="submit" id="btnEditProfile" class="btn btn-success"
+                      data-action='@Url.Action("UpdateProfile","UserManagement")'
+                      data-form="frmEditnew" data-method="post"
+                      data-action-BindGrid='@Url.Action("Profile","UserManagement")'>ویرایش اطلاعات</span>
+                     
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+             
+    $(document).on("click", "#btnEditProfile", function () {
+    var action = $(this).attr("data-action");
+    var formid = "#" + $(this).attr("data-form");
+
+    var actionBind = $(this).attr("data-action-BindGrid");
+    var sendingData = $(formid).serialize();
+
+        $.post(action, sendingData, function (rd) {
+            if (rd.success === true)  {
+             
+                ShowSuccessMessage(rd.message);
+                $.get(url, SendingData, function (grd) {
+                   
+                });
+               
+            }
+            else {
+                ShowFailMessage(rd.message)
+                $.get(url, SendingData, function (grd) {
+
+                });
+            }
+        });
+
+});
+
+</script>

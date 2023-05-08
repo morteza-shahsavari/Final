@@ -1,0 +1,38 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\refint\Shopping.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\ref\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\refint\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\Shopping.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\ref\Shopping.DataAccess.dll

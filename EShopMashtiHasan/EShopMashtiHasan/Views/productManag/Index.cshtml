@@ -1,0 +1,159 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.Product.ProductListItem>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+
+
+
+
+
+
+
+
+
+@if(@TempData["ErrorDelete"]!=null){
+    <div class="text-danger">
+       <h5>
+           @TempData["ErrorDelete"]
+       </h5>
+    </div>
+}
+
+<div class="IndexPagePanel">
+    <div class="DvSearch">
+        <div id="dvSearch" class="DvSearch">
+            @await Component.InvokeAsync("ProductSearchBox",new Shopping.DomainModel.DTO.Product.ProductSearchModel{PageSize=10} )
+        </div>
+
+        <a class="btn btn-primary m-2" asp-action="AddNew">ثبت جدید </a>
+    </div>
+
+   
+       
+
+
+<div class="ListBox" style="padding-bottom:30px">
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه
+            </th>
+            <th>
+               نام محصول
+            </th>
+            <th>
+                دسته بندی
+            </th>
+            <th>
+               سازنده
+            </th>
+            <th>
+               قیمت
+            </th>
+            <th>
+               تصویر
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        
+           @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.ProductID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SupplierName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        <img width="50" src="@Url.Content(item.Picture1)" alt="Alternate Text" />
+                    </td>
+
+                    <td>
+                        <a title="حذف" class="btn btn-danger" href='@Url.Action("Delete", "productManag",  new {  id= item.ProductID })'>
+                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                        </a>
+                                <a title="ویرایش" class="btn btn-success" href='@Url.Action("Update", "productManag", new {id= item.ProductID})'>
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </a>
+                                <a title="کالاهای مشابه" class="btn btn-info" href='@Url.Action("Index", "RelatedProduct", new Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel {ProductID=item.ProductID})'>
+                                    <i class="fa fa-cogs" aria-hidden="true"></i>
+
+                        </a>
+                                <a title="کلمات کلیدی" class="btn btn-info" href='@Url.Action("Index", "ProductKeyWord", new Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel {ProductID=item.ProductID})'>
+                                    <i class="fa fa-wordpress" aria-hidden="true"></i>
+                        </a>
+                                <a title="مشخصات " class="btn btn-warning" href='@Url.Action("Index", "ProductFeature", new Shopping.DomainModel.DTO.ProductFeatureValues.ProductFeatureSearchAddModel {ProductID=item.ProductID})'>
+                                    <i class="fa fa-tag" aria-hidden="true"></i>
+
+                        </a>
+                       
+
+                      
+                    </td>
+                </tr>
+            }
+            <tr colspan="7" class="text-center directionpage">
+                <td colspan="7">
+                    @{
+                        Shopping.DomainModel.DTO.Product.ProductSearchModel sm = (Shopping.DomainModel.DTO.Product.ProductSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+                            <ul class="pagination">
+                                @for (int i = 0; i < sm.pageCount; i++)
+                                {
+                            if (sm.PageIndex != i)
+                            {
+                                        <li class="page-item">
+                                            @Html.ActionLink("Page " + (i+1),"Index","productManag",new Shopping.DomainModel.DTO.Product.ProductSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,CategoryID = sm.CategoryID,ProductName=sm.ProductName,PageIndex = i
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+                            else
+                            {
+                                        <li class="page-item active">
+                                            @Html.ActionLink("Page " + (i+1),"Index","productManag",new Shopping.DomainModel.DTO.Product.ProductSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,CategoryID = sm.CategoryID,ProductName=sm.ProductName,PageIndex = i
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+
+        }
+    </tbody>
+</table>
+    </div>
+</div>

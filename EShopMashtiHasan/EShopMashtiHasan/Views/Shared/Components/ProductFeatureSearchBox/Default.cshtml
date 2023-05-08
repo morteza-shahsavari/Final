@@ -1,0 +1,31 @@
+﻿@model Shopping.DomainModel.DTO.ProductFeatureValues.ProductFeatureSearchAddModel
+<div class="SerachBox">
+    <form asp-action="Default" id="frmAddnewRoot"  class="FormSearch">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="Search-Root" style="display:none">
+            <label asp-for="ProductID"></label>
+                <input asp-for="ProductID" class="form-control" />
+                <span asp-validation-for="ProductID" class="text-danger"></span>
+            </div>
+
+        <div class="Search-Root">
+            <label>محصول:</label>
+            <input value=@ViewBag.productName class="form-control" readonly="@(true)" />
+        </div>
+        <div class="Search-RootSelect">
+                <label asp-for="FeatureID" >خصوصیت:</label>
+            <select asp-for="FeatureID" class="form-control" ></select>
+                <span asp-validation-for="FeatureID" class="text-danger"></span>
+            </div>
+        <div class="Search-RootSelect">
+                <label asp-for="FeatureValue" >مقدار:</label>
+                <input asp-for="FeatureValue" class="form-control" />
+                <span asp-validation-for="FeatureValue" class="text-danger"></span>
+            </div>
+
+        <div class="Search-rootbutton">
+            <span type="submit" id="btnAddNewRoot" class="btn btn-primary " data-action-BindGrid='@Url.Action("ProductFeatureList","ProductFeature")'> ثبت جدید</span>
+            </div>
+        </form>
+    </div>
+

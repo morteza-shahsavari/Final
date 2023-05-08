@@ -1,0 +1,34 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\refint\Security.BuessinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\ref\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\bin\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\refint\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\Security.BuessinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.BuessinessServiceContract\obj\Debug\net5.0\ref\Security.BuessinessServiceContract.dll

@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.RelatedProduct.RelatedProductListItem>
+
+@{
+    Layout = null;
+}
+
+
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                شناسه
+            </th>
+            <th>
+                محصول
+            </th>
+            <th>
+                کالاهای مشابه
+            </th>
+              <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.RelatedProductID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RelatedProductID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductRelatedName)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.RelatedProductID"
+                      data-action='@Url.Action("Delete","RelatedProduct")'
+                      data-action-BindGrid='@Url.Action("CFList","RelatedProduct")'
+                      data-action-RefreshGrid='@Url.Action("CFSearchBox","RelatedProduct")'
+                      data-Delete="DeleteKey"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+            }
+            <tr class="text-center">
+                <td colspan="4">
+                    @{
+                        Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel sm = (Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "RelatedProduct", new   Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        ProductID = sm.ProductID,RelatedToID=sm.RelatedToID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "RelatedProduct", new   Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        ProductID = sm.ProductID,RelatedToID=sm.RelatedToID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

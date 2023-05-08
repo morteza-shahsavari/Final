@@ -1,0 +1,24 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\refint\Security.Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\ref\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\bin\Debug\net5.0\Security.Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\refint\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\Security.Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Framework\obj\Debug\net5.0\ref\Security.Framework.dll

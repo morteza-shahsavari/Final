@@ -1,0 +1,30 @@
+﻿@model Shopping.DomainModel.Models.KeyWord 
+
+@{
+    Layout = null;
+}
+
+<div >
+    <form asp-action="Update" id="frmEditnew" class="FormAddNew">
+            <div class="form-AddNew">
+                <label  >شناسه :</label>
+                <input asp-for="KeyWordID" class="form-control" readonly="@(true)" />
+            </div>
+            <div class="form-AddNew">
+                <label  > کلمه کلیدی:</label>
+                <input asp-for="KeyWordText" class="form-control" />
+                <span asp-validation-for="KeyWordText" class="text-danger"></span>
+            </div>
+          
+        </form>
+        <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit "
+                  data-action='@Url.Action("Update","KeyWordManagement")'
+                  data-form="frmEditnew" data-method="post"
+                  data-action-BindGrid='@Url.Action("KeyWordList","KeyWordManagement")'
+                  data-action-RefreshGrid='@Url.Action("KeyWordSearchBox","KeyWordManagement")'>Edit</span>
+
+            <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+        </div>
+    </div>
+

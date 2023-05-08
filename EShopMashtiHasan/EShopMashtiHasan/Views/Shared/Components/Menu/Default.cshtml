@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Category_VM>
+@foreach (var item in Model)
+{
+    if (item.IsMobileDevice)
+    {
+        <li class="sub-menu">
+            <a href="@Url.Action("Index","Category",new{CategoryName = item.ParentName})">@item.ParentName</a>
+            @if (item.HaveSubCategory)
+            {
+                <ul>
+                    @foreach (var subCategory in item.SubCategories)
+                    {
+                        <li class="sub-menu">
+                            <a href="@Url.Action("Index","Category",new{CategoryName = subCategory.ChildName})">@subCategory.ChildName</a>
+                            @if (subCategory.HaveSubCategory)
+                            {
+                                <ul>
+                                    @foreach (var subSubCatrgory in subCategory.SubCategories)
+                                    {
+                                        <li>
+                                            <a href="@Url.Action("Index","Category",new{CategoryName = subSubCatrgory.ChildName})">@subSubCatrgory.ChildName</a>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </li>
+                    }
+                </ul>
+            }
+        </li>
+    }
+    else
+    {
+        <li class="list-item list-item-has-children mega-menu mega-menu-col-5">
+            <a class="nav-link" href="@Url.Action("Index","Category",new{CategoryName = item.ParentName})">@item.ParentName</a>
+            @if (item.HaveSubCategory)
+            {
+                <ul class="sub-menu nav">
+                    @foreach (var subCate in item.SubCategories)
+                    {
+                        <li class="list-item list-item-has-children">
+                            <i class="now-ui-icons arrows-1_minimal-left"></i><a class="main-list-item nav-link" href="@Url.Action("Index","Category",new{CategoryName = subCate.ChildName})">
+                                @subCate.ChildName
+                            </a>
+                            @if (subCate.HaveSubCategory)
+                            {
+                                <ul class="sub-menu nav">
+                                    @foreach (var subSubCate in subCate.SubCategories)
+                                    {
+                                        <li class="list-item">
+                                            <a class="nav-link" href="@Url.Action("Index","Category",new{CategoryName = subSubCate.ChildName})">@subSubCate.ChildName</a>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </li>
+                    }
+                    <img src="~/assets/img/1636.png" alt="">
+                </ul>
+            }
+        </li>
+    }
+}

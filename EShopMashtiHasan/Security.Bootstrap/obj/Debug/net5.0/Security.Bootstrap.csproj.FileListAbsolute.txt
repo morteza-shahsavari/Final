@@ -1,0 +1,60 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.runtimeconfig.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.runtimeconfig.dev.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\refint\Security.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.genruntimeconfig.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\ref\Security.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.runtimeconfig.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.runtimeconfig.dev.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\bin\Debug\net5.0\Security.Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\refint\Security.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\Security.Bootstrap.genruntimeconfig.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.Bootstrap\obj\Debug\net5.0\ref\Security.Bootstrap.dll

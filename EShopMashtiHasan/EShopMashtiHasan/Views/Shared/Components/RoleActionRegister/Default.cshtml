@@ -1,0 +1,60 @@
+﻿@model Security.BuessinessServiceContract.BusinessModel.RoleAction.RoleActionViewModel
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Default";
+    
+
+}
+
+<div >
+    <form asp-action="Default" id="frmAddnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-AddNew">
+                <label  >نقش:</label>
+                <select asp-for="RoleID" asp-items=@ViewBag.drpRole  ></select>
+                <span asp-validation-for="RoleID" class="text-danger"></span>
+            </div>
+            <div class="form-AddNew">
+                <label  >کنترلر:</label>
+                <select asp-for="ProjectControllerID" asp-items=@ViewBag.drpController 
+                        data-Drop="DropDown" data-action='@Url.Action("DropDownAdd","RoleActionManagement")'></select>
+                <span asp-validation-for="ProjectControllerID" class="text-danger"></span>
+         </div>
+            <div id="dvDropdown">
+                @await Component.InvokeAsync("DropDownAdd",-1)
+            </div >
+        <div class="form-group form-check  form-AddNew">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="HasPermission" /> @Html.DisplayNameFor(model => model.HasPermission)
+                    </label>
+                </div>
+           
+           
+        </form>
+    <div class="btn-modal">
+
+                <span type="submit" id="btnAddNew" class="btn btn-primary "
+                      data-action='@Url.Action("AddNew","RoleActionManagement")'
+                      data-form="frmAddnew" data-method="post"
+                      data-action-BindGrid='@Url.Action("RoleActionList","RoleActionManagement")'
+                      data-action-RefreshGrid='@Url.Action("RoleActionSearchBox","RoleActionManagement")'>Register Permission</span>
+            </div>
+    </div>
+
+  
+
+
+<script>
+    $(document).on("change", "#ProjectControllerID", function () {
+        var action = $(this).attr("data-action");
+        var id = $("#ProjectControllerID").val();
+        var sendingData = "id=" + id;
+        $.get(action, sendingData, function (rd) {
+            $("#dvDropdown").html(rd);
+        });
+        
+    });
+</script>
+

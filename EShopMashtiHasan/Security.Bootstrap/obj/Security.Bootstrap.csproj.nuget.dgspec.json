@@ -1,0 +1,551 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Bootstrap\\Security.Bootstrap.csproj": {}
+  },
+  "projects": {
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj",
+        "projectName": "Framework",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Bootstrap\\Security.Bootstrap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Bootstrap\\Security.Bootstrap.csproj",
+        "projectName": "Security.Bootstrap",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Bootstrap\\Security.Bootstrap.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Bootstrap\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj"
+              },
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\Security.Buessiness.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\Security.Buessiness.csproj"
+              },
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj",
+        "projectName": "Security.BuessinessServiceContract",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj"
+              },
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\Security.Buessiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\Security.Buessiness.csproj",
+        "projectName": "Security.Buessiness",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\Security.Buessiness.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Buessiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.BuessinessServiceContract\\Security.BuessinessServiceContract.csproj"
+              },
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj"
+              },
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\Security.Framework.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\Security.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj",
+        "projectName": "Security.DataAcceServiesContract",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj",
+        "projectName": "Security.DataAccess",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\Security.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.DataAcceServiesContract\\Security.DataAcceServiesContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj",
+        "projectName": "Security.Domain",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\Security.Domain.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj": {
+                "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\Security.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\Security.Framework.csproj",
+        "projectName": "Security.Framework",
+        "projectPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\Security.Framework.csproj",
+        "packagesPath": "C:\\Users\\mori\\.nuget\\packages\\",
+        "outputPath": "E:\\Ostad refou\\Final\\EShopMashtiHasan\\Security.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

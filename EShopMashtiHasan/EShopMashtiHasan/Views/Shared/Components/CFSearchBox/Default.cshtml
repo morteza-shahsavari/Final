@@ -1,0 +1,26 @@
+﻿@model Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel
+
+<div class="SerachBox">
+    <form asp-action="Index" id="frmAddnewRoot" class="FormSearch">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="Search-Root" style="display:none">
+                <label asp-for="CategoryID" ></label>
+                <input asp-for="CategoryID" class="form-control" />
+              
+            </div>
+        <div class="Search-Root">
+                <label >نام رده:</label>
+            <input value=@ViewBag.catName class="form-control" readonly="@(true)" />
+            </div>
+        <div class="Search-RootSelect">
+                <label >خصوصیت:</label>
+            <select asp-for="FeatureID" class="form-control"></select>
+                <span asp-validation-for="FeatureID" class="text-danger"></span>
+            </div>
+        <div class="Search-rootbutton">
+            <span type="submit" id="btnAddNewRoot" class="btn btn-primary " data-action-BindGrid='@Url.Action("CFList","CatFea")'> ثبت جدید</span>
+            </div>
+        </form>
+    </div>
+

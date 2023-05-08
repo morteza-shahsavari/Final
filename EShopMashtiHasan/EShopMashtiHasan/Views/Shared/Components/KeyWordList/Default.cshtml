@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Shopping.DomainModel.Models.KeyWord>
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<table class="table table-bordered table-hover table-striped table-sm bg-secondary">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                شناسه
+            </th>
+            <th>
+               کلمه کلیدی
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+                   @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.KeyWordID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KeyWordID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KeyWordText)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.KeyWordID"
+                      data-action='@Url.Action("Delete","KeyWordManagement")'
+                      data-action-BindGrid='@Url.Action("KeyWordList","KeyWordManagement")'
+                      data-action-RefreshGrid='@Url.Action("KeyWordBox","KeyWordManagement")'
+                      data-Delete="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+
+                        <a href="#" class="btn btn-primary " data-id="@item.KeyWordID"
+                   data-action='@Url.Action("Update","KeyWordManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+
+
+
+            <tr class="text-center">
+                <td colspan="3">
+                    @{
+                        Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel sm = (Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i+1),"Index","KeyWordManagement",new Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,KeyWordText = sm.KeyWordText,PageIndex = i
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i+1),"Index","KeyWordManagement",new Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,KeyWordText = sm.KeyWordText,PageIndex = i
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@model Shopping.DomainModel.DTO.ProductFeature.FeatureSearchModel
+
+
+@{
+    ViewData["Title"] = "ویژگی ها";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+
+
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("FeatureSearchBox",this.Model)
+</div>
+
+<div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("FeatureList",this.Model)
+</div>
+</div>

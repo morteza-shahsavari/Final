@@ -1,0 +1,45 @@
+﻿@model Security.Domain.DTO.ProjectAction.ProjectActionUpdateModel
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div>
+    <form asp-action="Update" id="frmEditnew"class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-AddNew">
+                <label >شناسه اکشن:</label>
+                <input asp-for="ProjectActionID"  readonly="@(true)" />
+                <span asp-validation-for="ProjectActionID" class="text-danger"></span>
+            </div>
+            <div class="form-AddNew">
+                <label >نام اکشن:</label>
+                <input asp-for="ProjectActionName"  />
+                <span asp-validation-for="ProjectActionName" class="text-danger"></span>
+            </div>
+            <div class="form-AddNew">
+                <label >توضیحات:</label>
+                <input asp-for="PersianTitle"  />
+                <span asp-validation-for="PersianTitle" class="text-danger"></span>
+            </div>
+            <div class="form-AddNew">
+                <label >نام کنترلر:</label>
+                <select asp-for="ProjectControllerID" asp-items=@ViewBag.drpController ></select>
+                <span asp-validation-for="ProjectControllerID" class="text-danger"></span>
+            </div>
+           
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit"
+              data-action='@Url.Action("Update","ProjectActionManagement")'
+              data-form="frmEditnew" data-method="post"
+              data-action-BindGrid='@Url.Action("ActionList","ProjectActionManagement")'
+              data-action-RefreshGrid='@Url.Action("ActionSearchBox","ProjectActionManagement")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+    </div>
+    </div>
+
+

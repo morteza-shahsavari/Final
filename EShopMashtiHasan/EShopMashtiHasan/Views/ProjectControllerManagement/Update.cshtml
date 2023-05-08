@@ -1,0 +1,45 @@
+﻿@model Security.Domain.DTO.ProjectController.ProjectControllerUpdateModel
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div >
+    <form asp-action="Update" id="frmEditnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-AddNew">
+                <label >شناسه کنترلر:</label>
+                <input asp-for="ProjectControllerID"  readonly="@(true)" />
+                <span asp-validation-for="ProjectControllerID" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+                <label >نام کنترلر</label>
+                <input asp-for="ProjectControllerName"  />
+                <span asp-validation-for="ProjectControllerName" class="text-danger"></span>
+            </div>
+        <div class ="form-AddNew">
+                <label>توضیحات</label>
+                <input asp-for="PersianTitle"  />
+                <span asp-validation-for="PersianTitle" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+                <label >اریا:</label>
+                <<select asp-for="ProjectAreaID" asp-items=@ViewBag.drpArea ></select>
+                <span asp-validation-for="ProjectAreaID" class="text-danger"></span>
+            </div>
+           
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit "
+                      data-action='@Url.Action("Update","ProjectControllerManagement")'
+                      data-form="frmEditnew" data-method="post"
+                      data-action-BindGrid='@Url.Action("ControllerList","ProjectControllerManagement")'
+                      data-action-RefreshGrid='@Url.Action("ControllerSearchBox","ProjectControllerManagement")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+            </div>
+    </div>
+
+

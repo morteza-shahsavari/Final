@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.Category.CategoryListItem>
+
+    
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                رده
+            </th>
+            <th>
+                نام رده
+            </th>
+            <th>
+                شناسه رده والد
+            </th>
+            <th>
+                رده والد
+            </th>
+            <th>
+                تعداد فرزندان
+            </th>
+            <th>
+               تعداد محصولات
+            </th>
+
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+ @if (Model != null)
+ {
+
+@foreach (var item in Model) {
+                <tr id="tr_@item.CategoryID">
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ParentID)
+                    </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentNames)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChildCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductCount)
+            </td>
+            
+                    <td class="text-center">
+                        <span title="حذف" class="btn btn-danger btnDelete" data-id="@item.CategoryID"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                        <span title="ویرایش" class="btn btn-primary btnEdit" data-id="@item.CategoryID"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                        <a class="btn btn-success" title="خصوصیات" href='@Url.Action("Index", "CatFea", new Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel {CategoryID=item.CategoryID})'>
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                        </a>
+
+            </td>
+        </tr>
+                            }
+
+
+            <tr class="text-center">
+                <td colspan="7">
+                    @{
+                        Shopping.DomainModel.DTO.Category.CategorySearchModel sm = (Shopping.DomainModel.DTO.Category.CategorySearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i+1),"Index","CategoryManagement",new Shopping.DomainModel.DTO.Category.CategorySearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,CategoryName = sm.CategoryName,PageIndex = i,ParentID = sm.ParentID
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i+1),"Index","CategoryManagement",new Shopping.DomainModel.DTO.Category.CategorySearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,CategoryName = sm.CategoryName,PageIndex = i,ParentID = sm.ParentID
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+            }
+    </tbody>
+</table>

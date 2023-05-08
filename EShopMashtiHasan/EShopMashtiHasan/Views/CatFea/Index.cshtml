@@ -1,0 +1,96 @@
+﻿@model Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+        @await Component.InvokeAsync("CFSearchBox",this.Model)
+    </div>
+
+    <div id="dvGrid" class="ListBox">
+        @await Component.InvokeAsync("CFList",this.Model)
+    </div>
+</div>
+
+<script>
+
+
+  
+    $("#FeatureID").select2({
+      
+        ajax: {
+            url: '@Url.Action("Get", "CatFea")',
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    type: 'public'
+                }
+   // Query parameters will be ?search=[term]&type=public
+                return query;
+            }
+        }
+
+        ,
+
+        tags: true,
+        multiple:true,
+
+        placeholder: {
+            id: "-1",
+            text: "خصوصیت جدید راوارد نمایید",
+        }
+        ,
+        allowClear: true,
+        tokenSeparators: [',', ' '], dir: "rtl"
+    });
+
+
+
+    $(document).on("click", "#btnAddNewRoot", function () {
+       
+        var actionBind = $(this).attr("data-action-BindGrid");
+        var id = parseInt($("#CategoryID").val()); 
+        var feature = $("#FeatureID").select2("val");
+        var url = '@Url.Action("AddCategoryFeature","CatFea")';       
+        $.post(url, {feature:feature ,"id":id}, function (op) {
+           if (op.success.toString() == "true") {
+             
+                ShowSuccessMessage(op.message);
+                BindKey(actionBind);
+            }
+        });
+    });
+
+    function BindKey(url) {
+        var SendingData = $("#frmAddnewRoot").serialize();
+        $.get(url, SendingData, function (grd) {
+            $("#dvGrid").html(grd);
+        });
+    }
+
+
+    $(document).on("click", "[data-Delete='DeleteKey']", function () {
+        var actionBind = $(this).attr("data-action-BindGrid");
+        var actionRefresh = $(this).attr("data-action-RefreshGrid");
+        if (confirm("آیا مطمنید")) {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+            var sendingUrl = $(this).attr("data-action");
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    BindKey(actionBind);
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+</script>

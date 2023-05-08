@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.OrdersAndOrderDetials.OrderDetilsListItem>
+
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+    var t = Model.Sum(x => x.TotalPrice);
+}
+<div class="IndexPagePanel" style="padding: 8px 3px">
+    
+ <div id="dvGrid" class="ListBox">
+      
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه
+            </th>
+            <th>
+               شماره سفارش
+            </th>
+            <th>
+               محصول
+            </th>
+            <th>
+               تعداد
+            </th>
+            <th>
+               قیمت
+            </th>
+            <th>
+               قیمت مجموع
+            </th>
+
+
+          
+        </tr>
+    </thead>
+    <tbody>
+                  @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDetailsID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                            <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.TotalPrice)
+                    </td>
+                   
+                   
+                </tr>
+            }
+
+                    <tr class="text-center">
+                        <td  colspan="5"> 
+                            جمع کل
+                        </td>
+                        <td colspan="1">
+                            @t
+                        </td>
+                    </tr>
+
+
+
+
+        }
+    </tbody>
+</table>
+       
+    </div>
+</div>

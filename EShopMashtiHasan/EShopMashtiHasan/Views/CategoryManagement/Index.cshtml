@@ -1,0 +1,188 @@
+﻿@using Shopping.DomainModel.DTO.Category  
+@model Shopping.DomainModel.DTO.Category.CategorySearchModel
+
+
+@{
+    ViewData["Title"] = "دسته بندی";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("CategorySearchBox",this.Model)
+</div>
+    <div id="dvContent" class="ListBox">
+    @await Component.InvokeAsync("CategoryList",this.Model)
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mr-auto text-center" id="staticBackdropLabel">فرم ثبت اطلاعات</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="dvAddEditModel">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@*<script src="~/assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>*@
+<link href="~/css/sweetalert2.min.css" rel="stylesheet" />
+<script src="~/js/sweetalert2.min.js"></script>
+<script>
+    function List(){
+
+      
+        var SendingUrl = '@Url.Action("List","CategoryManagement")';
+        var SendingData = $("#frmSearchBox").serialize();
+        $.get(SendingUrl, SendingData, function (grd) {
+            $("#dvContent").html(grd);
+        });
+        
+    }
+
+   
+    function RefreshsearchBox() {
+        var SendingUrl = '@Url.Action("CategorySearchBox","CategoryManagement")';
+        var SendingData = $("#frmSearchBox").serialize();
+        $.get(SendingUrl, SendingData, function (frmSearch) {
+            $("#dvSearch").html(frmSearch);
+        });
+    }
+
+
+
+
+
+    $(document).ready(function () {
+        $("#AddNewFormCategory").click(function () {
+            var sendingUrl = '@Url.Action("Add","CategoryManagement")';
+            $.get(sendingUrl, null, function (rd) {
+                $("#dvAddEditModel").html(rd);
+                $("#myModal").modal("show");
+            });
+        });
+
+    });
+
+        $(document).on("click", "#btnAddNewCategory", function () {
+        var sendingUrl = '@Url.Action("Add","CategoryManagement")';
+        var sendingData = $("#frmAddNewCategory").serialize();
+        $.post(sendingUrl, sendingData, function (rd) {
+            if (rd.success === true) {
+                $("#myModal").modal('hide');
+                ShowSuccessMessage(rd.message);
+                List();
+
+            } else {
+                ShowFailMessage(rd.message);
+            }
+        });
+
+    });
+
+    function ShowSuccessMessage(msg) {
+        Swal.fire({
+            icon: 'success',
+            title: 'وضعیت ثبت',
+            text: msg,
+        });
+
+    }
+
+    function ShowFailMessage(msg) {
+        Swal.fire({
+            icon: 'error',
+            title: 'وضعیت ثبت',
+            text: msg,
+        });
+
+
+    }
+
+
+
+   
+
+    $(document).on("click", ".btnDelete", function () {
+
+        var id = $(this).attr("data-id");
+        var sendingData = "id=" + id;
+        var sendingUrl = '@Url.Action("Delete","CategoryManagement")';
+        if (confirm("آیا مطمنید")) {
+           
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    List();
+                    //RefreshsearchBox();
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+
+
+
+
+    $(document).on("click", ".btnEdit", function () {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+        var sendingUrl = '@Url.Action("Edit","CategoryManagement")';
+            $.get(sendingUrl, sendingData, function (rd) {
+                 $("#dvAddEditModel").html(rd);
+                $("#myModal").modal("show");
+            });
+    });
+
+    $(document).on("click", "#btnEditCategory", function () {
+        var sendingUrl = '@Url.Action("Edit","CategoryManagement")';
+        var sendingData = $("#frmEditCategory").serialize();
+        $.post(sendingUrl, sendingData, function (rd) {
+            if (rd.success === true) {
+                $("#myModal").modal('hide');
+               
+                ShowSuccessMessage(rd.message);
+                List();
+
+            } else {
+                ShowFailMessage(rd.message);
+            }
+        });
+
+    });
+
+    $(document).on("click", "#btnCancelEditCategory", function () {
+        $("#myModal").modal('hide');
+    });
+
+
+
+    $(document).on("keyup", "#CategoryName", function () {
+        List();
+    });
+    $(document).on("change", "#ParentID", function () {
+        List();
+       
+    });
+
+</script>

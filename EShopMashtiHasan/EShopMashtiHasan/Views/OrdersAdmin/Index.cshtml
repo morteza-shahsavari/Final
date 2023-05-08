@@ -1,0 +1,42 @@
+﻿@model Shopping.DomainModel.DTO.OrdersAndOrderDetials.OrderSearchModel
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+        @await Component.InvokeAsync("OrderAdminSearchBox",this.Model)
+    </div>
+
+    <div id="dvGrid" class="ListBox">
+        @await Component.InvokeAsync("OrderAdminList",this.Model)
+    </div>
+</div>
+
+
+<script>
+    $(document).on("change", ".Fainaly", function () {
+
+        var action = '@Url.Action("OrderAdminList","OrdersAdmin")';       
+        var value = $(this).attr("data-values");      
+        var IsFainaly  = this.value;
+        var id = $(this).attr("data-id");
+        var url = '@Url.Action("UpdateIsFainaly","OrdersAdmin")';
+        $.post(url, { "IsFainaly": IsFainaly, "id": id }, function (op) {
+            if (op.success.toString() == "true") {
+                ShowSuccessMessage(op.message);
+                var SendingData = $("#frmSearch").serialize();
+                $.get(action, SendingData, function (grd) {
+                    $("#dvGrid").html(grd);
+                });
+            }
+                   else {
+                    ErrorMessage(op.message);
+                }      
+        });
+});
+
+</script>

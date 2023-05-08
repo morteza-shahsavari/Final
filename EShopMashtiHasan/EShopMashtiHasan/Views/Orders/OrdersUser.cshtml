@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.OrdersAndOrderDetials.OrderListItemUser>
+
+@{
+    ViewData["Title"] = "OrdersUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info" >
+        <tr>
+            <th>
+               شناسه خرید
+            </th>
+            <th>
+               نام کاربری
+            </th>
+            <th>
+               توضیحات
+            </th>
+            <th>
+               تاریخ سفارش
+            </th>
+            <th>
+               آدرس
+            </th>
+            <th>
+                تاریخ تحویل
+            </th>
+            <th>
+               قیمت کل
+            </th>
+            <th>
+               وضعیت
+            </th>
+            <th>
+                مشاهده جزییات
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+           @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequiredDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsFainaly)
+                    </td>
+                    <td>
+                        <a title="حذف" class="btn btn-primary" href='@Url.Action("OrderDetailsUser", "Orders",  new {id= item.OrderID })'>
+                            جزییات
+                        </a>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

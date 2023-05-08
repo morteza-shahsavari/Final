@@ -1,0 +1,40 @@
+﻿@model Shopping.DomainModel.Models.Feature
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div>
+    <form asp-action="Default" id="frmAddnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-AddNew">
+                <label  >ویژگی:</label>
+                <input asp-for="FeatureName" />
+                <span asp-validation-for="FeatureName" class="text-danger"></span>
+            </div>
+            <div class="form-AddNew">
+                <label  >توضیحات:</label>
+                <input asp-for="FeatureDescription" />
+                <span asp-validation-for="FeatureDescription" class="text-danger"></span>
+            </div>
+
+        </form>
+
+
+    <div class="btn-modal">
+
+        <span type="submit" id="btnAddNew" class="btn btn-primary "
+              data-action='@Url.Action("AddNew","FeatureManagement")'
+              data-form="frmAddnew" data-method="post"
+              data-action-BindGrid='@Url.Action("FeatureList","FeatureManagement")'
+              data-action-RefreshGrid='@Url.Action("FeatureSearchBox","FeatureManagement")'>ثبت جدید</span>
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">انصراف</span>
+    </div>
+    </div>
+
+
+
+

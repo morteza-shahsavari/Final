@@ -1,0 +1,28 @@
+﻿@model Shopping.DomainModel.DTO.Category.CategorySearchModel
+
+
+<form asp-action=""  id="frmSearchBox">
+    <table class="table table-bordered table-hover table-striped table-sm">
+        <tr>
+            <td>رده:</td>
+            <td>
+                <input type="text" asp-for="CategoryName" class="form-control" placeholder="CategoryName" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                :رده والد
+            </td>
+            <td>
+                <select asp-items="@ViewBag.cats" asp-for="ParentID" class="form-control">
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <span class="btn btn-primary" id="AddNewFormCategory">ثبت جدید </span>
+            </td>
+        </tr>
+    </table>
+</form>

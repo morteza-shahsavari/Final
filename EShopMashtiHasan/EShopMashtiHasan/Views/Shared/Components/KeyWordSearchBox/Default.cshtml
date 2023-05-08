@@ -1,0 +1,23 @@
+﻿@model Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+<div class="SerachBox" >
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+
+        <div class="SearchBox-div" style="width:50%">
+            <label style="width:22%"> کلمه کلیدی:</label>
+                <input asp-for="KeyWordText" class="form-control" data-action='@Url.Action("KeyWordList", "KeyWordManagement")' data-search="search" style="width:73%" />
+               
+            </div>
+        <div class="btnAddNew">
+                <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","KeyWordManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </form>
+    </div>
+
+
+

@@ -1,0 +1,16 @@
+﻿@model Security.Domain.DTO.ProjectAction.ProjectActionSearchModel
+
+
+@{
+    ViewData["Title"] = "اکشن ها";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("ActionSearchBox",this.Model)
+</div>
+
+    <div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("ActionList",this.Model)
+</div>
+</div>

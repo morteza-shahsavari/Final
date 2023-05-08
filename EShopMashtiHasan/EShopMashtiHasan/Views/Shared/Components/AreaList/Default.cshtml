@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Security.Domain.DTO.ProjectArea.ProjectAreaListItem>
+
+@{
+    ViewData["Title"] = "Default";
+}
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه
+            </th>
+            <th>
+               نام اریا
+            </th>
+            <th>
+                توضیحات
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+         @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.ProjectAreaID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProjectAreaID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AreaName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PersianTitle)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.ProjectAreaID"
+                      data-action='@Url.Action("Delete","ProjectAreaManagement")'
+                      data-action-BindGrid='@Url.Action("AreaList","ProjectAreaManagement")'
+                      data-action-RefreshGrid='@Url.Action("AreaSearchBox","ProjectAreaManagement")'
+                      data-Delete="Delete"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+
+                        <a href="#" class="btn btn-primary " data-id="@item.ProjectAreaID"
+                   data-action='@Url.Action("Update","ProjectAreaManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel">
+                   <i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+            }
+
+            <tr class="text-center">
+                <td colspan="4">
+                    @{
+                       Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel sm = (Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProjectAreaManagement", new Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        AreaName = sm.AreaName,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "ProjectAreaManagement", new Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        AreaName = sm.AreaName,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+
+        }
+
+    </tbody>
+</table>

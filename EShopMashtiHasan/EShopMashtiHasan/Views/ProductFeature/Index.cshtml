@@ -1,0 +1,153 @@
+﻿@model Shopping.DomainModel.DTO.ProductFeatureValues.ProductFeatureSearchAddModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+
+
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+        @await Component.InvokeAsync("ProductFeatureSearchBox",this.Model)
+    </div>
+
+    <div id="dvGrid" class="ListBox">
+        @await Component.InvokeAsync("ProductFeatureList",this.Model)
+    </div>
+</div>
+
+
+<script>
+
+    $("#FeatureID").select2({
+
+        ajax: {
+            url: '@Url.Action("Get", "ProductFeature")',
+            data: function (params) {
+                var query = {
+                    search: params.term,
+                    type: 'public'
+                }
+   // Query parameters will be ?search=[term]&type=public
+                return query;
+            }
+        }
+
+        ,
+
+        tags: true,
+
+        placeholder: {
+            id: "-1",
+            text: "خصوصیت جدید راوارد نمایید",
+        }
+        ,
+        allowClear: true,
+        tokenSeparators: [',', ' '], dir: "rtl"
+    });
+
+
+
+    function BindKey(url) {
+        var SendingData = $("#frmAddnewRoot").serialize();
+        $.get(url, SendingData, function (grd) {
+            $("#dvGrid").html(grd);
+        });
+    }
+
+
+
+    $(document).on("click", "#btnAddNewRoot", function () {
+        var actionBind = $(this).attr("data-action-BindGrid");
+        var SendingData = $("#frmAddnewRoot").serialize();
+        var url = '@Url.Action("AddNew","ProductFeature")';
+        $.post(url, SendingData, function (op) {
+            if (op.success.toString() == "true") {
+                ShowSuccessMessage(op.message);
+                BindKey(actionBind);
+            }
+        });
+    });
+
+
+   
+
+     var u =[];
+   
+    $(".mori").blur(function () {
+    var id = $(this).attr("data-id");
+    var value = $(this).attr("data-values");
+    var values = $("#tr_"+value).val();
+
+
+    if (values!=undefined){
+            var q = { ProductFeatureValueID: id, FeatureValue: values }
+            u.push(q)
+    }
+
+    });
+
+    $(document).on("click", "#EnterAllAddFeature", function () {
+        var url = '@Url.Action("UpdateَAllProductFeature","ProductFeature")';
+        var actionBind = $(this).attr("data-action-BindGrid");
+       var data = JSON.stringify(u);
+
+        $.post(url, {data: data}, function() {
+            if (op.success.toString() == "true") {
+                ShowSuccessMessage(op.message);
+                BindKey(actionBind);
+            }
+            else {
+                ErrorMessage(op.message);
+            }
+        });
+
+    });
+
+    $(document).on("click", "[data-Update='UpdateFeature']", function (){
+        var actionBind = $(this).attr("data-action-BindGrid");
+       var id=$(this).attr("data-id");
+        var value = $(this).attr("data-values");
+        var values = $("#tr_"+value).val();
+        console.log(values);
+
+        var url = '@Url.Action("Update","ProductFeature")';
+        $.post(url, { values: values, "id": id }, function (op) {
+            if (op.success.toString() == "true") {
+                ShowSuccessMessage(op.message);
+                BindKey(actionBind);
+            }
+            else {
+                ErrorMessage(op.message);
+            }
+        });
+
+    });
+
+
+   
+
+    $(document).on("click", "[data-Delete='DeleteKey']", function () {
+        var actionBind = $(this).attr("data-action-BindGrid");
+        var actionRefresh = $(this).attr("data-action-RefreshGrid");
+        if (confirm("آیا مطمنید")) {
+            var id = $(this).attr("data-id");
+            var sendingData = "id=" + id;
+            var sendingUrl = $(this).attr("data-action");
+            $.post(sendingUrl, sendingData, function (op) {
+                if (op.success.toString() == "true") {
+                    var rowID = "#tr_" + id;
+                    $(rowID).slideUp(500);
+                    BindKey(actionBind);
+                }
+                else {
+                    ErrorMessage(op.message);
+                }
+            });
+        }
+
+    });
+
+
+</script>

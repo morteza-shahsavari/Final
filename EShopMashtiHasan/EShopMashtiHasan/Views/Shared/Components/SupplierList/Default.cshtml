@@ -1,0 +1,128 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.Supplier.SupplierListItem>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+                شناسه سازنده
+            </th>
+            <th>
+               نام سازنده
+            </th>
+            <th>
+               تلفن
+            </th>
+            <th>
+              موبایل
+            </th>
+            <th>
+              تعداد محصولات
+            </th>
+            <th class="text-center">
+                <Span >Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody">
+
+
+         @if (Model != null)
+        {
+
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.SupplierID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SupplierID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SupplierName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Mobile)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductCount)
+                    </td>
+            <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.SupplierID"
+                      data-action='@Url.Action("Delete","SupplierManagment")'
+                      data-action-BindGrid='@Url.Action("SupplierList","SupplierManagment")'
+                      data-action-RefreshGrid='@Url.Action("SupplierSearchBox","SupplierManagment")'
+                      data-Delete="Delete">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </span>
+
+                        <a href="#" class="btn btn-primary " data-id="@item.SupplierID"
+                   data-action='@Url.Action("Update","SupplierManagment")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                </a>
+                    </td>
+                </tr>
+            }
+
+        <tr class="text-center">
+            <td colspan="6" >
+                    @{
+                        Shopping.DomainModel.DTO.Supplier.SupplierSearchModel sm = (Shopping.DomainModel.DTO.Supplier.SupplierSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i+1),"Index","SupplierManagment",new Shopping.DomainModel.DTO.Supplier.SupplierSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,SupplierName = sm.SupplierName,PageIndex = i,Mobile = sm.Mobile,Tel=sm.Tel
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i+1),"Index","SupplierManagement",new Shopping.DomainModel.DTO.Supplier.SupplierSearchModel
+                        {
+                        pageCount = sm.pageCount,RecordCount = sm.RecordCount,PageSize = 10,SupplierName = sm.SupplierName,PageIndex = i,Mobile = sm.Mobile,Tel=sm.Tel
+                        },new{@class="page-link"} )
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+        }
+
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+

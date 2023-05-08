@@ -1,0 +1,32 @@
+﻿@model Security.Domain.DTO.RoleAction.RoleActionSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+        <div class="SearchBox-div" style="display:none">
+            <label>شناسه:</label>
+                <input asp-for="RoleActionID" class="form-control" data-action='@Url.Action("RoleActionList", "RoleActionManagement")' data-search="search" />
+            </div>
+        <div class="SearchBox-div">
+                <label >نقش:</label>
+                <select asp-for="RoleID" asp-items=@ViewBag.drpRole class="form-control" data-action='@Url.Action("RoleActionList", "RoleActionManagement")' data-search="search"></select>
+            </div>
+        <div class="SearchBox-div">
+                <label >کنترلر:</label>
+                <select asp-for="ProjectContorollerID" asp-items=@ViewBag.drpController class="form-control" data-action='@Url.Action("RoleActionList", "RoleActionManagement")' data-search="search"></select>
+            </div>
+        <div class="SearchBox-div">
+                <label >اکشن:</label>
+                <select asp-for="ProjectActionID" asp-items=@ViewBag.ProjectAction class="form-control" data-action='@Url.Action("RoleActionList", "RoleActionManagement")' data-search="search"></select>
+            </div>
+        <div class="btnAddNew">
+                <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","RoleActionManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">Permission</a>
+            </div>
+        </form>
+    </div>
+

@@ -1,0 +1,27 @@
+﻿@model Security.Domain.DTO.ProjectAction.ProjectActionSearchModel
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+ 
+            <div class="SearchBox-div">
+                <label >اکشن</label>
+                <input asp-for="ProjectActionName" class="form-control" data-action='@Url.Action("ActionList", "ProjectActionManagement")' data-search="search" />
+            </div>
+            <div class="SearchBox-div">
+                <label >کنترلر</label>
+                <select asp-for="ProjectControllerID" asp-items=@ViewBag.drpController class="form-control" data-action='@Url.Action("ActionList", "ProjectActionManagement")' data-search="search"></select>
+
+            </div>
+
+        <div class="btnAddNew">
+                <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","ProjectActionManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </form>
+    </div>
+
+

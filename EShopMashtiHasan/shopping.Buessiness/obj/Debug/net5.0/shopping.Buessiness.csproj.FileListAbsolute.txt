@@ -1,0 +1,42 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\refint\shopping.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\ref\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\shopping.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\refint\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\shopping.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\shopping.Buessiness\obj\Debug\net5.0\ref\shopping.Buessiness.dll

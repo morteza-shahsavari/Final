@@ -1,0 +1,19 @@
+﻿@model IEnumerable<CategoryProductListItem>
+@foreach (var cat in Model)
+{
+    <div class="row">
+        <div class="col-12">
+            <div class="widget widget-product card">
+                <header class="card-header">
+                    <h3 class="card-title">
+                        <span>@cat.CategoryName</span>
+                    </h3>
+                    @*<a href="#" class="view-all">مشاهده همه</a>*@
+                </header>
+                @{
+                    await Html.RenderPartialAsync("_ProductBox", cat.Products);
+                }
+            </div>
+        </div>
+    </div>
+}

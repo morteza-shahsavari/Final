@@ -1,0 +1,24 @@
+﻿@model Shopping.DomainModel.DTO.ProductFeature.FeatureSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+
+        <div class="SearchBox-div" style="width:50%">
+            <label style="width:23%">خصوصیت:</label>
+            <input asp-for="FeatureName" class="form-control" style="width:72%" data-action='@Url.Action("FeatureList", "FeatureManagement")' data-search="search" />
+            </div>
+
+        <div class="btnAddNew">
+                <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","FeatureManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </form>
+    </div>
+
+
+

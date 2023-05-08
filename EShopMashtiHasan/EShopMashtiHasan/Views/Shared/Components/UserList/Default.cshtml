@@ -1,0 +1,135 @@
+﻿@model IEnumerable<Security.Domain.DTO.User.UserListItem>
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه کابر
+            </th>
+            <th>
+               نام کاربر
+            </th>
+           
+            <th>
+               نام
+            </th>
+            <th>
+                نام خانوادگی
+            </th>
+            <th>
+                ایمیل
+            </th>
+            <th>
+                موبایل
+            </th>
+            <th>
+              نقش
+            </th>
+            <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+          @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr id="tr_@item.UserID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Mobile)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RoleName)
+                    </td>
+                    <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.UserID"
+                      data-action='@Url.Action("Delete","UserManagement")'
+                      data-action-BindGrid='@Url.Action("UserList","UserManagement")'
+                      data-action-RefreshGrid='@Url.Action("UserSearchBox","UserManagement")'
+                      data-Delete="Delete"> <i class="fa fa-trash-o" aria-hidden="true"></i></span>
+
+                        <a href="#" class="btn btn-primary " data-id="@item.UserID"
+                   data-action='@Url.Action("Update","UserManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel"> <i class="fa fa-pencil" aria-hidden="true"></i></a>
+
+                        <a href="#" class="btn btn-danger " data-id="@item.UserID"
+                   data-action='@Url.Action("ChangePassword","UserManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showEditModel="showEditModel">
+                            <i class="fa fa-key" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+
+
+            <tr class="text-center">
+                <td colspan="8">
+                    @{
+                        Security.Domain.DTO.User.UserSearchModel sm = (Security.Domain.DTO.User.UserSearchModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "UserManagement", new Security.Domain.DTO.User.UserSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        UserName = sm.UserName,LastName=sm.LastName,FirstName=sm.FirstName,RoleID=sm.RoleID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "UserManagement", new Security.Domain.DTO.User.UserSearchModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        UserName = sm.UserName,LastName=sm.LastName,FirstName=sm.FirstName,RoleID=sm.RoleID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

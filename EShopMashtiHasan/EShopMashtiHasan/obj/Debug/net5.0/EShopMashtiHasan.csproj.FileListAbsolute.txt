@@ -1,0 +1,630 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\appsettings.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.exe
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.runtimeconfig.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.runtimeconfig.dev.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.Views.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.Views.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Humanizer.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualBasic.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ZarinpalSandbox.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\debian-x64\native\libuv.so
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\fedora-x64\native\libuv.so
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\opensuse-x64\native\libuv.so
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\osx\native\libuv.dylib
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\rhel-x64\native\libuv.so
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-arm\native\libuv.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-x64\native\libuv.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-x86\native\libuv.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\shopping.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\shopping.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorAssemblyInfo.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorAssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\scopedcss\bundle\EShopMashtiHasan.styles.css
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\EShopMashtiHasan.StaticWebAssets.Manifest.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\EShopMashtiHasan.StaticWebAssets.Pack.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.EShopMashtiHasan.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.build.EShopMashtiHasan.props
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.EShopMashtiHasan.props
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.EShopMashtiHasan.props
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.TagHelpers.input.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.TagHelpers.output.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorCoreGenerate.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Account\Create.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\AdvertisementManageMent\AddNew.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\AdvertisementManageMent\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Add.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\MakeAdd.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\MakeSub.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Mult.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Sub.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Test.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Add.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Edit.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\CategoryProductList.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\OrderBy.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CatFea\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\FeatureManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\FeatureManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\KeyWordManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\KeyWordManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\OrdersAdmin\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OnlinePayment.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\Orders.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrdersDetails.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\PanelAdmin\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProductFeature\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProductKeyWord\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\AddNew.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductDetailsBreadcrumb.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductFeatuers.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectActionManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectActionManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectAreaManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectAreaManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectControllerManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectControllerManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RelatedProduct\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleActionManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SearchResultView.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SectionManagement\AddNew.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SectionManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AmazingOffer\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CartDropdown\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryResult\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategorySearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CFList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CFSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\DropDownAdd\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\LatestProducts\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\NewProducts\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\OrderAdminList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\OrderAdminSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductCategories\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductFeatureList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductFeatureSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProKeyList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProKeySearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RelatedProductList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RelatedProductSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SuggestedProducts\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserList\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserRegister\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserSearchBox\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\WidgetSidebarBanner\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\WidgetSuggestion\Default.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_PanelAdmin.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ProductBox.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ServiceIntroduction.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SupplierManagment\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SupplierManagment\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\ChangePassword.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Index.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Profile.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Update.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorTargetAssemblyInfo.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorTargetAssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.Views.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\refint\EShopMashtiHasan.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.genruntimeconfig.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\ref\EShopMashtiHasan.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\OrdersAdmin\OrderDetailsAdmin.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrdersUser.cshtml.g.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrderDetailsUser.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\appsettings.Development.json
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\appsettings.json
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.exe
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.runtimeconfig.json
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.runtimeconfig.dev.json
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.Views.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\EShopMashtiHasan.Views.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Humanizer.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualBasic.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\System.Text.Json.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ZarinpalSandbox.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\debian-x64\native\libuv.so
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\fedora-x64\native\libuv.so
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\opensuse-x64\native\libuv.so
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\osx\native\libuv.dylib
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\rhel-x64\native\libuv.so
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-arm\native\libuv.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-x64\native\libuv.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win7-x86\native\libuv.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.BuessinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.BuessinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Security.Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\shopping.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.MvcApplicationPartsAssemblyInfo.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorAssemblyInfo.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorAssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\scopedcss\bundle\EShopMashtiHasan.styles.css
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\EShopMashtiHasan.StaticWebAssets.Manifest.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\EShopMashtiHasan.StaticWebAssets.Pack.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.EShopMashtiHasan.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.build.EShopMashtiHasan.props
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.EShopMashtiHasan.props
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.EShopMashtiHasan.props
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.TagHelpers.input.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.TagHelpers.output.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorCoreGenerate.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Account\Create.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\AdvertisementManageMent\AddNew.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\AdvertisementManageMent\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Add.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\MakeAdd.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\MakeSub.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Mult.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Sub.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\BinaryOperation\Test.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Add.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Edit.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CategoryManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\CategoryProductList.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Category\OrderBy.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\CatFea\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\FeatureManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\FeatureManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\KeyWordManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\KeyWordManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\OrdersAdmin\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\OrdersAdmin\OrderDetailsAdmin.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OnlinePayment.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrderDetailsUser.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\Orders.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrdersDetails.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Orders\OrdersUser.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\PanelAdmin\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProductFeature\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProductKeyWord\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\AddNew.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\productManag\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductDetailsBreadcrumb.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Product\ProductFeatuers.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectActionManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectActionManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectAreaManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectAreaManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectControllerManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\ProjectControllerManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RelatedProduct\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleActionManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\RoleManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SearchResultView.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SectionManagement\AddNew.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SectionManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ActionSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AmazingOffer\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\AreaSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CartDropdown\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryResult\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CategorySearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CFList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\CFSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ControllerSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\DropDownAdd\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\KeyWordSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\LatestProducts\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\NewProducts\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\OrderAdminList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\OrderAdminSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductCategories\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductFeatureList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductFeatureSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProductSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProKeyList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\ProKeySearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RelatedProductList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RelatedProductSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleActionSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\RoleSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SuggestedProducts\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\SupplierSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserList\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserRegister\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\UserSearchBox\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\WidgetSidebarBanner\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Components\WidgetSuggestion\Default.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_PanelAdmin.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ProductBox.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ServiceIntroduction.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SupplierManagment\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\SupplierManagment\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\ChangePassword.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Index.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Profile.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\UserManagement\Update.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorTargetAssemblyInfo.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.RazorTargetAssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.Views.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\refint\EShopMashtiHasan.dll
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\EShopMashtiHasan.genruntimeconfig.cache
+E:\Ostad refou\Final\EShopMashtiHasan\EShopMashtiHasan\obj\Debug\net5.0\ref\EShopMashtiHasan.dll

@@ -1,0 +1,23 @@
+﻿@model Shopping.DomainModel.DTO.OrdersAndOrderDetials.OrderSearchModel
+
+@{
+    Layout = null;
+}
+
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+
+        <div class="SearchBox-div " style="width: 43%">
+            <label style="width: 30%">شناسه سفارش:</label>
+            <input asp-for="OrderID" class="form-control" data-action='@Url.Action("OrderAdminList", "OrdersAdmin")' data-search="search" />
+            
+            </div>
+        <div class="SearchBox-div" style="width: 43%">
+            <label style="width: 30%">شناسه کاربر:</label>
+            <input asp-for="Mobile" class="form-control" data-action='@Url.Action("OrderAdminList", "OrdersAdmin")' data-search="search" />
+               
+            </div>
+        </form>
+    </div>
+

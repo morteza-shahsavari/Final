@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ProductListItem>
+@if (Model != null && Model.Any())
+{
+    <div class="widget-suggestion widget card">
+
+        <header class="card-header">
+            <h3 class="card-title">پیشنهاد لحظه ای</h3>
+        </header>
+        <div id="progressBar">
+            <div class="slide-progress"></div>
+        </div>
+        <div id="suggestion-slider" class="owl-carousel owl-theme">
+            @foreach (var item in Model)
+            {
+                <div class="item">
+                    <a href="@Url.Action("ProductDetails","Product",new{id = item.ProductID})">
+                        <img src="@Url.Content(item.Picture1)" class="w-100" alt="">
+                    </a>
+                    <h3 class="product-title">
+                        <a href="@Url.Action("ProductDetails","Product",new{id = item.ProductID})"> @item.ProductName </a>
+                    </h3>
+                    <div class="price">
+                        <span class="amount">@item.UnitPrice<span>تومان</span></span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}

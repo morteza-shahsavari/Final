@@ -1,0 +1,49 @@
+﻿@{
+    Layout = null;
+}
+@model Shopping.DomainModel.DTO.Supplier.SupplierAddEditModel
+
+
+
+    <div >
+    <form asp-action="Default" id="frmEditnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-AddNew">
+            <label>شناسه:</label>
+                <input asp-for="SupplierID"  readonly="@(true)" />
+                <span asp-validation-for="SupplierID" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+            <label>نام سازنده:</label>
+                <input asp-for="SupplierName"  />
+                <span asp-validation-for="SupplierName" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+            <label> آدرس:</label>
+                <input asp-for="Address"  />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+            <label>موبایل:</label>
+                <input asp-for="Mobile"  />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+           <div class="form-AddNew">
+            <label>تلفن :</label>
+                <input asp-for="Tel" />
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+
+        </form>
+    <div class="btn-modal">
+
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit"
+              data-action='@Url.Action("Update","SupplierManagment")'
+              data-form="frmEditnew" data-method="post"
+              data-action-BindGrid='@Url.Action("SupplierList","SupplierManagment")'
+              data-action-RefreshGrid='@Url.Action("SupplierSearchBox","SupplierManagment")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+    </div>
+    </div>
+

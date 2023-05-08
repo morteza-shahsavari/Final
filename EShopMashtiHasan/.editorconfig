@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.DataAccess\obj\Debug\net5.0\ref\Shopping.DataAccess.dll' could not be found
+dotnet_diagnostic.CS0006.severity = none

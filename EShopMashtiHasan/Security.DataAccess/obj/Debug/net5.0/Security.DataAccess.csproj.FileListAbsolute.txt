@@ -1,0 +1,38 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.Domain.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.Domain.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\refint\Security.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\ref\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.Domain.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\bin\Debug\net5.0\Security.Domain.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\refint\Security.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\Security.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Security.DataAccess\obj\Debug\net5.0\ref\Security.DataAccess.dll

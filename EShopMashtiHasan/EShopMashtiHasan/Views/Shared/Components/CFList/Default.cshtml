@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureListItem>
+
+@{
+    Layout = null;
+}
+
+
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="bg-info">
+        <tr>
+            <th>
+               شناسه
+            </th>
+            <th>
+               خصوصیت
+            </th>
+            <th>
+               رده
+            </th>
+             <th class="text-center">
+                <Span>Action</Span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+           @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr d="tr_@item.CategoryFeatureID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryFeatureID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FeatureName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                     <td class="text-center">
+                        <span class="btn btn-danger " data-id="@item.CategoryFeatureID"
+                      data-action='@Url.Action("Delete","CatFea")'
+                      data-action-BindGrid='@Url.Action("CFList","CatFea")'
+                      data-action-RefreshGrid='@Url.Action("CFSearchBox","CatFea")'
+                      data-Delete="DeleteKey"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+            }
+            <tr class="text-center">
+                <td colspan="4">
+                    @{
+                        Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel sm = (Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel)ViewBag.sm;
+                    }
+
+
+
+
+
+                    <ul class="pagination">
+                        @for (int i = 0; i < sm.pageCount; i++)
+                        {
+
+                            if (sm.PageIndex != i)
+                            {
+                                <li class="page-item">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "CatFea", new  Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        FeatureID = sm.FeatureID,CategoryID=sm.CategoryID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item active">
+                                    @Html.ActionLink("Page " + (i + 1), "Index", "CatFea", new  Shopping.DomainModel.DTO.CategoryFeature.CategoryFeatureSearchAddModel
+                        {
+                        pageCount = sm.pageCount,
+                        RecordCount = sm.RecordCount,
+                        PageSize = 10,
+                        FeatureID = sm.FeatureID,CategoryID=sm.CategoryID,
+                        PageIndex = i
+                        }, new { @class = "page-link" })
+                                </li>
+                            }
+
+
+                        }
+                    </ul>
+                </td>
+            </tr>
+
+
+        }
+
+    </tbody>
+</table>
+

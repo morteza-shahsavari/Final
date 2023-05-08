@@ -1,0 +1,67 @@
+﻿@model Security.Domain.DTO.User.UserUpdateModel
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Update";
+}
+
+
+    <div >
+    <form asp-action="Update" id="frmEditnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-AddNew">
+            <label readonly="@(true)">شناسه کاربری:</label>
+                <input asp-for="UserID"  readonly="@(true)" />
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+            <label>نام:</label>
+            <input asp-for="FirstName" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-AddNew">
+            <label>نام خانوادگی:</label>
+            <input asp-for="LastName" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="form-AddNew">
+            <label>موبایل:</label>
+            <input asp-for="Mobile" />
+            <span asp-validation-for="Mobile" class="text-danger"></span>
+        </div>
+
+       
+
+        <div class="form-AddNew">
+                <label > ایمیل:</label>
+                <input asp-for="Email"  />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+
+        <div class="form-AddNew">
+                <label >نقش:</label>
+                <select asp-for="RoleID" asp-items=@ViewBag.drpRole ></select>
+                <span asp-validation-for="RoleID" class="text-danger"></span>
+            </div>
+
+        <div class="form-AddNew" style="flex-basis:100%">
+            <label style="width:7%"> آدرس:</label>
+            <input asp-for="Address" style="width:90%" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+           
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit"
+              data-action='@Url.Action("Update","UserManagement")'
+              data-form="frmEditnew" data-method="post"
+              data-action-BindGrid='@Url.Action("UserList","UserManagement")'
+              data-action-RefreshGrid='@Url.Action("UserSearchBox","UserManagement")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+    </div>
+    </div>
+
+   

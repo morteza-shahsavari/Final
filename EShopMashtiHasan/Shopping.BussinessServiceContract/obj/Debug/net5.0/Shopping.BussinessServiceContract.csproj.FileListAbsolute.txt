@@ -1,0 +1,34 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\refint\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\ref\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\refint\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.BussinessServiceContract\obj\Debug\net5.0\ref\Shopping.BussinessServiceContract.dll

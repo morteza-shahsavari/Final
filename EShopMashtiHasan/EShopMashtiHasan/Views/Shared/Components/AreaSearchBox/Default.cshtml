@@ -1,0 +1,23 @@
+﻿@model Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+
+        <div class="SearchBox-div"style="width:50%">
+            <label style="width:20%">اریا</label>
+            <input asp-for="AreaName" class="form-control" style="width:78%" data-action='@Url.Action("AreaList", "ProjectAreaManagement")' data-search="search" />
+              
+            </div>
+
+        <div class="btnAddNew">
+               <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","ProjectAreaManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </form>
+    </div>
+

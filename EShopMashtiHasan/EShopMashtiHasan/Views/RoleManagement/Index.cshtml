@@ -1,0 +1,17 @@
+﻿@model Security.Domain.DTO.Role.RoleSearchModel
+
+@{
+    ViewData["Title"] = "نقش ها";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+
+
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("RoleSearchBox",this.Model)
+</div>
+
+    <div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("RoleList",this.Model)
+</div>
+</div>

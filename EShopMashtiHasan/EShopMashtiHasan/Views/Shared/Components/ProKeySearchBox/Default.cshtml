@@ -1,0 +1,30 @@
+﻿@model Shopping.DomainModel.DTO.ProductKeyWord.ProductKeyWordSearchAddModel
+
+
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmAddnewRoot" class="FormSearch">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="Search-Root" style="display:none">
+                <label asp-for="ProductID"  ></label>
+                <input asp-for="ProductID"  />
+            </div>
+        <div class="Search-Root">
+                <label >نام محصول:</label>
+            <input value=@ViewBag.ProName class="form-control" readonly="@(true)" />
+            </div>
+        <div class="Search-RootSelect">
+                <label >کلمه کلیدی:</label>
+            <select asp-for="KeywordID"  class="form-control"></select>
+                <span asp-validation-for="KeywordID" class="text-danger"></span>
+            </div>
+
+        <div class="Search-rootbutton">
+                <span type="submit" id="btnAddNewRoot" class="btn btn-primary " data-action-BindGrid='@Url.Action("ProKeyList","ProductKeyWord")'> ثبت جدید</span>
+            </div>
+        </form>
+    </div>
+
+
+
+

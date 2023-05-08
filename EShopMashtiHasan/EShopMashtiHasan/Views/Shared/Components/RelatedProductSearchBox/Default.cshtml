@@ -1,0 +1,24 @@
+﻿@model Shopping.DomainModel.DTO.RelatedProduct.RelatedProductsearchAddModel
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmAddnewRoot" class="FormSearch">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="Search-Root" style="display:none">
+                <label asp-for="ProductID"  ></label>
+                <input asp-for="ProductID"  />
+            </div>
+        <div class="Search-Root">
+                <label >نام محصول:</label>
+            <input value=@ViewBag.ProName class="form-control" readonly="@(true)" />
+            </div>
+        <div class="Search-RootSelect">
+                <label  >کالاهای مشابه:</label>
+            <select asp-for="RelatedToID"  class="form-control"></select>
+            <span asp-validation-for="RelatedToID" class="text-danger"></span>
+            </div>
+        <div class="Search-rootbutton">
+                <span type="submit" id="btnAddNewRoot" class="btn btn-primary " data-action-BindGrid='@Url.Action("RelatedProductList","RelatedProduct")'> افزودن</span>
+            </div>
+        </form>
+    </div>
+

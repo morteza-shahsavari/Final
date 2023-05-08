@@ -1,0 +1,181 @@
+﻿@using System.Security.Claims
+@model CategorySearch_VM
+@{
+    // DomainModel.DTO.User.UserInfo user = (DomainModel.DTO.User.UserInfo)TempData["Userlogined"];
+
+}
+
+<style>
+
+    .isAdmin {
+        display: none;
+    }
+
+    .isAuthenticated {
+        display: none;
+    }
+
+</style>
+
+<script>
+
+    $(document).on("click", "#btnadmin", function () {
+        sendingUrl = '@Url.Action("CheckRoleType","Home")';
+        $.get(sendingUrl, null, function (rd) {
+            if (rd.isAuthenticated) {
+                $(".isAuthenticated").css("display", "block");
+            }
+            if (rd.isAdmin) {
+                $(".isAdmin").css("display", "block");
+            }
+        });
+
+    })
+
+
+</script>
+
+
+
+@if (Model.IsMobileDevice)
+{
+    <nav class="navbar direction-ltr fixed-top header-responsive">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="/">
+                    <img src="/assets/img/logo.png" height="24px" alt="">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+                <div class="search-nav default">
+                    <form action="">
+                        <input type="text" placeholder="جستجو ...">
+                        <button type="submit"><img src="/assets/img/search.png" alt=""></button>
+                    </form>
+                    <ul>
+                        <li><a href="#"><i class="now-ui-icons users_single-02"></i></a></li>
+                        <li><a href="#"><i class="now-ui-icons shopping_basket"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <div class="logo-nav-res default text-center">
+                    <a href="/">
+                        <img src="/assets/img/logo.png" height="36px" alt="">
+                    </a>
+                </div>
+                <ul class="navbar-nav default">
+                    @await Component.InvokeAsync("Menu",new Category_VM())
+                </ul>
+            </div>
+        </div>
+    </nav>
+}
+else
+{
+    <header class="main-header default">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                    <div class="logo-area default">
+                        <a href="/">
+                            <img src="/assets/img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-8 col-7">
+                    <div class="search-area default">
+                        <form asp-action="Index" asp-controller="Category" class="search" method="get">
+                            <input type="text" id="gsearchsimple" name="CategoryName" asp-for="CategoryName"
+                               placeholder="نام کالا، برند و یا دسته مورد نظر خود را جستجو کنید…">
+                            <div class="localSearchSimple"></div>
+                            <button type="submit" id="search_btn"><img src="/assets/img/search.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="user-login dropdown">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a href="/Account/Login" class="btn btn-neutral dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1">
+                                ورود / ثبت نام
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-neutral dropdown-toggle" data-toggle="dropdown" id="btnadmin">
+                                @User.FindFirstValue("FullName")  خوش آمدید  
+                            </a>
+                        }
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                            @if (!Context.User.Identity.IsAuthenticated)
+                            {
+                                <div class="dropdown-item">
+                                    <a href="/Account/Login" class="btn btn-info">ورود به تاپ کالا</a>
+                                </div>
+                                <div class="dropdown-item font-weight-bold">
+                                    <span>کاربر جدید هستید؟</span> <a class="register" href="/Account/Create">ثبت‌نام</a>
+                                </div>
+
+                                <hr>
+                            }
+
+                            <div class="dropdown-item isAdmin" data-Permission="Check">
+                                <a href="/PanelAdmin" class="dropdown-item-link">
+                                    <i class="now-ui-icons users_single-02"></i>
+                                    پنل ادمین
+                                </a>
+                            </div>
+
+
+                            <div class="isAuthenticated">
+                                <div class="dropdown-item">
+                                    <a href='@Url.Action("Profile", "UserManagement",  new {  id= @User.FindFirstValue("UserID") })' class="dropdown-item-link">
+                                        <i class="now-ui-icons users_single-02"></i>
+                                        پروفایل
+                                    </a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href='@Url.Action("OrdersUser", "Orders",  new {  id= @User.FindFirstValue("UserID") })' class="dropdown-item-link">
+                                        <i class="now-ui-icons shopping_bag-16"></i>
+                                        پیگیری سفارش
+                                    </a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="/Account/SignOut" class="btn btn-neutral">خروج</a>
+                                </div>
+                            </div>
+
+                        </ul>
+                    </div>
+
+
+
+                    <div id="Bindcartdropdown">
+                    @await Component.InvokeAsync("CartDropdown")
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        @if (!Model.IsMobileDevice)
+        {
+            <nav class="main-menu">
+                <div class="container">
+                    <ul class="list float-right">
+                        @await Component.InvokeAsync("Menu",new Category_VM())
+                        <li class="list-item amazing-item">
+                            <a class="nav-link" href="#" target="_blank">شگفت‌انگیزها</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        }
+        <div class="overlay-search-box"></div>
+    </header>
+}

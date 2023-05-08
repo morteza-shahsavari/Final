@@ -1,0 +1,16 @@
+﻿@model Security.Domain.DTO.ProjectArea.ProjectAreaSearchModel
+
+
+@{
+    ViewData["Title"] = "اریا";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("AreaSearchBox",this.Model)
+</div>
+
+<div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("AreaList",this.Model)
+</div>
+</div>

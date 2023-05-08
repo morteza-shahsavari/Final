@@ -1,0 +1,24 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\refint\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Framework\obj\Debug\net5.0\ref\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\refint\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Framework\obj\Debug\net5.0\ref\Framework.dll

@@ -1,0 +1,39 @@
+﻿@model Shopping.DomainModel.DTO.Category.CategoryAddEditModel
+
+
+@{
+    Layout = null;
+}
+
+
+<div>
+    <form asp-action="Add" id="frmEditCategory" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div  class="form-AddNew">
+                <label  >شناسه دسته:</label>
+                <input asp-for="CategoryID"  />
+                <span asp-validation-for="CategoryID" class="text-danger"></span>
+            </div>
+            <div  class="form-AddNew">
+                <label >نام دسته بندی:</label>
+                <input asp-for="CategoryName"  />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div  class="form-AddNew">
+                <label >توضیجات</label>
+                <input asp-for="SmallDescription"  />
+                <span asp-validation-for="SmallDescription" class="text-danger"></span>
+            </div>
+            <div  class="form-AddNew">
+                <label  >نام رده والد:</label>
+                <select asp-for="ParentID"  asp-items="ViewBag.cats">
+                </select>
+                <span asp-validation-for="ParentID" class="text-danger"></span>
+            </div>
+
+        </form>
+    <div class="btn-modal">
+        <span class="btn btn-success btn-Edit" id="btnEditCategory">Edit</span>
+        <span class="btn btn-primary  btn-Cancel" id="btnCancelEditCategory">Cancel</span>
+            </div>
+    </div>

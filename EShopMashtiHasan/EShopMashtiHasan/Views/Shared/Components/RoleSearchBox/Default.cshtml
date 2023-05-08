@@ -1,0 +1,23 @@
+﻿@model Security.Domain.DTO.Role.RoleSearchModel
+
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div class="SerachBox">
+    <form asp-action="Default" id="frmSearch" class="FormSearch">
+        <div class="SearchBox-div" style="width:50%">
+            <label style ="width:20%">
+                نقش:</label>
+            <input asp-for="RoleName" class="form-control" data-action='@Url.Action("RoleList", "RoleManagement")' data-search="search" style="width:78%" />
+            </div>
+        <div class="btnAddNew">
+                <a href="#" class="btn btn-success "
+                   data-action='@Url.Action("AddNew","RoleManagement")'
+                   data-container="dvAddEditModel" data-modal-id="myModal" data-showAddModel="showAddModel">ثبت جدید</a>
+            </div>
+        </form>
+    </div>
+
+
+

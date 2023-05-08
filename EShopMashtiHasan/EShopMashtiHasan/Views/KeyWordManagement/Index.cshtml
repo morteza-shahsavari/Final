@@ -1,0 +1,15 @@
+﻿@model Shopping.DomainModel.DTO.KeyWord.KeyWordSearchModel
+
+@{
+    ViewData["Title"] = "کلمه های کلیدی";
+    Layout = "~/Views/Shared/_PanelAdmin.cshtml";
+}
+<div class="IndexPagePanel">
+    <div id="dvSearch" class="DvSearch">
+    @await Component.InvokeAsync("KeyWordSearchBox",this.Model)
+</div>
+
+    <div id="dvGrid" class="ListBox">
+    @await Component.InvokeAsync("KeyWordList",this.Model)
+</div>
+</div>

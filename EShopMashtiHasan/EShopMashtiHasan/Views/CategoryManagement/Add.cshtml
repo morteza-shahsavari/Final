@@ -1,0 +1,46 @@
+﻿@model Shopping.DomainModel.DTO.Category.CategoryAddEditModel
+
+@{
+    Layout = null;
+}
+
+
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger h4" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div>
+    <form asp-action="Add" id="frmAddNewCategory" class="FormAddCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-AddCategory">
+                <label >دسته بندی</label>
+                <input asp-for="CategoryName"  />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+        <div class="form-AddCategory">
+            <label>رده:</label>
+            <select asp-for="ParentID"  asp-items="ViewBag.cats">
+            </select>
+            <span asp-validation-for="ParentID" class="text-danger"></span>
+        </div>
+        <div class="form-AddCategoryDescription">
+                <label >توضیحات:</label>
+                <input class="" asp-for="SmallDescription"  />
+                <span asp-validation-for="SmallDescription" class="text-danger"></span>
+            </div>
+           
+            
+        </form>
+    <div class="btn-AddCategory">
+        <span class="btn btn-primary" id="btnAddNewCategory">ثبت جدید</span>
+      </div>
+</div>
+
+
+
+

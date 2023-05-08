@@ -1,0 +1,56 @@
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.deps.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.runtimeconfig.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.runtimeconfig.dev.json
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Framework.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\shopping.Buessiness.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAccess.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DomainModel.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\shopping.Buessiness.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAccess.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DomainModel.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Framework.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.AssemblyReference.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.AssemblyInfoInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.AssemblyInfo.cs
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.CopyComplete
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\refint\Shopping.Bootstrap.dll
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.pdb
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.genruntimeconfig.cache
+C:\Users\mori\Desktop\morteza\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\ref\Shopping.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.deps.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.runtimeconfig.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.runtimeconfig.dev.json
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Framework.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\shopping.Buessiness.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.BussinessServiceContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAcceServiesContract.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAccess.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DomainModel.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\shopping.Buessiness.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.BussinessServiceContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAcceServiesContract.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DataAccess.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Shopping.DomainModel.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\bin\Debug\net5.0\Framework.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.AssemblyReference.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.AssemblyInfoInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.AssemblyInfo.cs
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.CoreCompileInputs.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.csproj.CopyComplete
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\refint\Shopping.Bootstrap.dll
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.pdb
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\Shopping.Bootstrap.genruntimeconfig.cache
+E:\Ostad refou\Final\EShopMashtiHasan\Shopping.Bootstrap\obj\Debug\net5.0\ref\Shopping.Bootstrap.dll

@@ -1,0 +1,35 @@
+﻿@model Security.Domain.DTO.ProjectArea.ProjectAreaAddModel
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Default";
+}
+
+<div>
+    <form asp-action="Default" id="frmAddnew" class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class ="form-AddNew">
+                <label >اریا:</label>
+                <input asp-for="AreaName"  />
+                <span asp-validation-for="AreaName" class="text-danger"></span>
+            </div>
+        <div class="form-AddNew">
+                <label >توضیحات:</label>
+                <input asp-for="PersianTitle"  />
+                <span asp-validation-for="PersianTitle" class="text-danger"></span>
+            </div>
+       
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnAddNew" class="btn btn-primary "
+              data-action='@Url.Action("AddNew","ProjectAreaManagement")'
+              data-form="frmAddnew" data-method="post"
+              data-action-BindGrid='@Url.Action("AreaList","ProjectAreaManagement")'
+              data-action-RefreshGrid='@Url.Action("AreaSearchBox","ProjectAreaManagement")'>ثبت جدید</span>
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">انصراف</span>
+
+    </div>
+    </div>
+
+

@@ -1,0 +1,40 @@
+﻿@model Shopping.DomainModel.Models.Feature  
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div >
+    <form asp-action="Default" id="frmEditnew"class="FormAddNew">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div  class="form-AddNew">
+                <label >شناسه :</label>
+                <input asp-for="FeatureID"  readonly="@(true)" />
+                <span asp-validation-for="FeatureID" class="text-danger"></span>
+            </div>
+            <div  class="form-AddNew">
+                <label  >خصوصیت:</label>
+                <input asp-for="FeatureName" />
+                <span asp-validation-for="FeatureName" class="text-danger"></span>
+            </div>
+            <div  class="form-AddNew">
+                <label >توضیحات</label>
+                <input asp-for="FeatureDescription"  />
+                <span asp-validation-for="FeatureDescription" class="text-danger"></span>
+            </div>
+           
+        </form>
+    <div class="btn-modal">
+        <span type="submit" id="btnEdit" class="btn btn-success btn-Edit"
+                      data-action='@Url.Action("Update","FeatureManagement")'
+                      data-form="frmEditnew" data-method="post"
+                      data-action-BindGrid='@Url.Action("FeatureList","FeatureManagement")'
+                      data-action-RefreshGrid='@Url.Action("FeatureSearchBox","FeatureManagement")'>Edit</span>
+
+        <span class="btn btn-primary btn-Cancel" id="btnCancelEdit">Cancel</span>
+            </div>
+    </div>
+
+
